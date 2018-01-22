@@ -1,0 +1,312 @@
+﻿{% load staticfiles %}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>数据库综合运维平台</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="{% static 'dashboard/components/bootstrap/dist/css/bootstrap.min.css' %}">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{% static 'dashboard/components/font-awesome/css/font-awesome.min.css' %}">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="{% static 'dashboard/components/Ionicons/css/ionicons.min.css' %}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{% static 'dashboard/dist/css/AdminLTE.min.css' %}">
+  <link rel="stylesheet" href="{% static 'dashboard/dist/css/skins/skin-blue.min.css' %}">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="{% static 'dashboard/components/datatables.net-bs/css/dataTables.bootstrap.min.css' %}">
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  <!-- 页面顶部组件 -->
+  <header class="main-header">
+
+    <!-- Logo信息: style can be found in header.less -->
+    <a href="#" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini">DBMP</span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg">综合运维平台</span>
+    </a>
+
+    <!-- 顶部导航栏 -->
+    <nav class="navbar navbar-static-top" role="navigation">
+      <!-- 侧边栏收缩按钮 -->
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+          
+      <!-- 顶部导航左侧菜单 -->
+      <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">选择数据库<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+            {% for tabRow in dbList %}
+                <li><a href="#">{{ tabRow.DB_NAME }}</a></li>
+            {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+            
+      <!-- 顶部导航右侧菜单 -->
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+
+          <!-- 提醒按钮 -->
+          <li class="dropdown notifications-menu">
+            <!-- Menu toggle button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-bell-o"></i>
+              <span class="label label-warning">10</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">You have 10 notifications</li>
+              <li>
+                <!-- Inner Menu: contains the notifications -->
+                <ul class="menu">
+                  <li><!-- start notification -->
+                    <a href="#">
+                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                    </a>
+                  </li>
+                  <!-- end notification -->
+                </ul>
+              </li>
+              <li class="footer"><a href="#">View all</a></li>
+            </ul>
+          </li>
+
+          <!-- 账户菜单 -->
+          <li class="dropdown user user-menu">
+            <!-- Menu Toggle Button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <!-- The user image in the navbar-->
+              <img src="{% static 'dashboard/dist/img/user2-160x160.jpg' %}" class="user-image" alt="User Image">
+              <!-- hidden-xs hides the username on small devices so only the image appears. -->
+              <span class="hidden-xs">Alexander Pierce</span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- The user image in the menu -->
+              <li class="user-header">
+              <img src="{% static 'dashboard/dist/img/user2-160x160.jpg' %}" class="img-circle" alt="User Image">
+
+                <p>
+                  登录用户描述
+                  <small>用户信息</small>
+                </p>
+              </li>
+
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-right">
+                  <a href="#" class="btn btn-default btn-flat">退出登录</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          
+          <!-- 右侧系统工具按钮区域 -->
+          <li>
+            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+          </li>
+        </ul>
+      </div>
+      
+    </nav>
+  </header>
+  
+  <!-- 左侧侧边栏 -->
+  <aside class="main-sidebar">
+
+    <!-- 侧边栏信息: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+      <!-- 侧边栏信息面板 -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="{% static 'dashboard/dist/img/user2-160x160.jpg' %}" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p></p>
+          <!-- Status -->
+          <a href="#"><i class="fa fa-circle text-success"></i> ZGDBA </a>
+        </div>
+      </div>     
+
+      <!-- 菜单区域: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu" data-widget="tree">
+        <li class="header"></li>
+        {% for tabRow in menuList %} 
+          {% if forloop.first %}
+          <!-- 激活第一个菜单 -->
+          <li class="active">
+            <a href="#" id="mainPageInit"> <i class="fa fa-dashboard"></i><span>{{tabRow.MENU_NAME}}</span> </a>
+          </li>
+          {% else %}
+            {% if tabRow.HAS_LEAF == 1 and tabRow.MENU_URL == '#' %}
+              {% if tabRow.MENU_ID == 2 %}
+              <!-- {{tabRow.MENU_NAME}} 菜单,非激活 -->
+              <li class="treeview">
+                <a href="#"><i class="fa fa-table"></i>
+                  <span>{{tabRow.MENU_NAME}}</span>
+                  <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i>
+                  </span>
+                </a>
+              {% else %}
+              </li>
+              <!-- {{tabRow.MENU_NAME}} 菜单,非激活 -->
+              <li class="treeview">
+                <a href="#"><i class="fa fa-table"></i>
+                  <span>{{tabRow.MENU_NAME}}</span>
+                  <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i>
+                  </span>
+                </a>
+              {% endif %}
+            {% elif tabRow.HAS_LEAF == 0 and tabRow.IS_LEAF == 0 %}
+            </li>
+            <li>
+             <a href="#" id="{{tabRow.MENU_URL}}" onclick="sysConfig();">
+                <i class="fa fa-calendar"></i> <span>{{tabRow.MENU_NAME}}</span>
+             </a>
+            </li>
+            {% else %}
+                {% if tabRow.LEAF_ORDER == 1 %}
+                <ul class="treeview-menu">
+                    <li><a href="#" id="{{tabRow.MENU_URL}}" onclick="{{ tabRow.URL_EVENT}}('{{tabRow.MENU_URL}}');">
+                    <i class="fa fa-circle-o"></i>{{tabRow.MENU_NAME}}</a></li>
+                {% elif tabRow.LEAF_ORDER == 99 %}
+                    <li><a href="#" id="{{tabRow.MENU_URL}}" onclick="{{ tabRow.URL_EVENT}}('{{tabRow.MENU_URL}}');">
+                    <i class="fa fa-circle-o"></i>{{tabRow.MENU_NAME}}</a></li>
+                </ul>
+                {% else %}
+                    <li><a href="#" id="{{tabRow.MENU_URL}}" onclick="{{ tabRow.URL_EVENT}}('{{tabRow.MENU_URL}}');">
+                    <i class="fa fa-circle-o"></i>{{tabRow.MENU_NAME}}</a></li>
+                {% endif %}
+            {% endif %}
+          {% endif %} 
+        {% endfor %} 
+      </ul>
+      <!-- /.sidebar-menu -->
+
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- 页面正文区域 -->
+  <div class="content-wrapper">
+    <!-- 正文页头信息，该区域信息保留用于后续扩展 -->
+    <section class="content-header">
+    </section>
+
+    <!-- Main content -->
+    <section id="mainSection" class="content container-fluid">
+        
+        <div id="mainPageDIV" style="display:none"></div>
+        <div id="commMenuInitQryDIV" style="display:none"></div>
+        <div id="menuConfigDIV" style="display:none"></div>
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- 页脚区域 -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="pull-right hidden-xs">
+      公司信息
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
+  </footer>
+
+  <!-- 右侧系统工具按钮区域 -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!-- Home tab content -->
+      <div class="tab-pane active" id="control-sidebar-home-tab">
+        {% for tabRow in appList %}
+            <h3 class="control-sidebar-heading"><a href="javascript:;">{{ tabRow.APP_NAME }}</a></h3>
+        {% endfor %}
+      </div>
+      <!-- /.tab-pane -->
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+  <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+  
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery 3 -->
+<script src="{% static 'dashboard/components/jquery/dist/jquery.min.js' %}"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="{% static 'dashboard/components/jquery-ui/jquery-ui.min.js' %}"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="{% static 'dashboard/components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+<!-- DataTables -->
+<script src="{% static 'dashboard/components/datatables.net/js/jquery.dataTables.min.js' %}"></script>
+<script src="{% static 'dashboard/components/datatables.net-bs/js/dataTables.bootstrap.min.js' %}"></script>
+<!-- AdminLTE App -->
+<script src="{% static 'dashboard/dist/js/adminlte.min.js' %}"></script>
+<!-- EChart -->
+<script src="{% static 'plugins/ECharts/echarts.min.js' %}"></script>
+
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+    $.widget.bridge('uibutton', $.ui.button);
+</script>
+
+<!-- 加载应用javascript脚本 -->
+<script>
+
+    $(document).ready(function(){
+
+        //页面初始化加载
+        $.get("{% url 'mainPageInit' %}", {'urlQryType':'instanceQry'}, function(initForm){
+            $('#mainPageDIV').html(initForm);
+            $('#mainPageDIV').show();
+        })
+
+    });
+
+    // 页面通用查询，用于对查询菜单信息进行跳转
+    function commMenuInitQry(urlQryType)
+    {
+        //清空mainSection中的所有DIV内容
+        $('#mainSection div').empty();
+
+        $.get("{% url 'commMenuInitQry' %}",{'urlQryType': urlQryType}, function(commMenuInitQry){
+            $('#commMenuInitQryDIV').html(commMenuInitQry);
+            $('#commMenuInitQryDIV').show();
+        })
+    }
+
+    // 菜单配置
+    function sysConfig()
+    {
+        //清空mainSection中的所有DIV内容
+        $('#mainSection div').empty();
+
+        $.get("{% url 'cfgManage:menuConfig' %}", function(menuConfig){
+            $('#menuConfigDIV').html(menuConfig);
+            $('#menuConfigDIV').show();
+        })
+    }
+
+</script>
+
+</body>
+</html> 

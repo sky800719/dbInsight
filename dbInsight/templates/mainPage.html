@@ -1,0 +1,44 @@
+{% load staticfiles %}
+
+<div class="box">
+    <div class="box-header">
+        <h3 class="box-title">数据库实例运行状态</h3>
+    </div>
+    <div class="box-body">
+    <table id="instTab" class="table table-bordered table-striped">
+        <!-- 输出表格列头名称信息 -->
+        {% if queryResult %}
+            {% for tabRow in queryResult %} 
+                {% if forloop.first %}
+                <thead>
+                    <tr>
+                        {% for key, value in tabRow.items %}
+                        <th>{{value}}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                {% else %}
+                <tr>
+                    {% for key, value in tabRow.items %}
+                    <td>{{value}}</td>
+                    {% endfor %}
+                </tr>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    </table>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+
+        $('#instTab').DataTable({
+            "language": {
+                    "url": "{% static 'dashboard/components/datatables.net/js/Chinese.json' %}"
+            },
+            "pagingType": "full_numbers",
+        });
+
+    });
+</script>

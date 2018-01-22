@@ -1,0 +1,25 @@
+{% load staticfiles %}
+
+{% if MENU_ACTION %}
+    {% for tabRow in MENU_ACTION %}
+        <div id="{{ tabRow.URL_DIV }}" style="display:none"></div>
+    {% endfor %}
+{% endif %}
+
+<script>
+
+    $(document).ready(function(){
+
+        {% if MENU_ACTION %}
+            {% for tabRow in MENU_ACTION %}
+            $.get("{% url tabRow.URL_FUNC %}", 
+                {'urlQryType': '{{ tabRow.MENU_URL }}', 'urlQryAction': '{{ tabRow.URL_ACTION }}'}, 
+                function(commDBQuery){
+                    $('#' + '{{ tabRow.URL_DIV }}').html(commDBQuery);
+                    $('#' + '{{ tabRow.URL_DIV }}').show();
+            })
+            {% endfor %}
+        {% endif %}
+
+    });
+</script>

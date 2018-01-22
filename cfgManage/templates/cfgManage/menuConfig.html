@@ -1,0 +1,59 @@
+{% load staticfiles %}
+
+<section class="content">
+    <div class="box box-default">
+        <div class="box-header with-border">
+            <h3 class="box-title">菜单配置</h3>
+        </div>
+        <!-- /.box-header -->
+
+        <div class="box-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="menuName">菜单名称</label>
+                        <input type="text" class="form-control" name="menuName" id="menuName">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- /.form-group -->
+                    <div class="form-group">
+                        <label for="menuUrl">菜单地址</label>
+                        <input type="text" class="form-control" name="menuUrl" id="menuUrl">
+                    </div>
+                    <!-- /.form-group -->
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="menuSQL">配置语句</label>
+                        <textarea class="form-control" rows="10" placeholder="请输入配置SQL..." name="menuSQL" id="menuSQL"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="box-footer">
+                        <button type="button" class="btn btn-primary" onclick="addConfig();">提交</button>
+                    </div>
+                </div>
+            </div>
+        <!-- /.row -->
+        </div>
+    </div>
+</section>
+
+<script>
+    function addConfig()
+    {
+
+        menuName = $('#menuName').val();
+        menuUrl = $('#menuUrl').val();
+        menuSQL = ($('#menuSQL').val();
+
+        alert(menuName);
+        alert(menuUrl);
+        alert(menuSQL);
+
+        $.get("{% url 'cfgManage:addConfig' %}", function(initForm){
+            alert(initForm);
+        })
+    }
+</script>
