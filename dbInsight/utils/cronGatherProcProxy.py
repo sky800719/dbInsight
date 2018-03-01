@@ -3,6 +3,7 @@
 import sys
 import time
 from urllib import request
+from .SYSConfig import SYS_URL
 from .cronGatherProc import dbGatherPorc, osGatherPorc
 from .StringParse import strToList
 
@@ -14,14 +15,14 @@ def dbGatherProxy():
         print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())),' 执行数据库定时采集任务开始！')
 
         # 获取采集数据库配置信息
-        dbListURL = 'http://192.168.56.200:8000/getDBList'
+        dbListURL = SYS_URL + '/getDBList'
         dbListResp = request.urlopen(dbListURL)
 
         dbList = strToList(dbListResp.read().decode('utf-8'))
 
         # 启动数据采集任务，为避免一次启动过多进程，进程启动之间应该有一定间隔
         for dbRow in dbList:
-            p = dbGatherPorc(str(dbRow['DBID']), 'DAILY')
+            p = dbGatherPorc(str(dbRow['DB_UID']), 'DAILY')
             p.start()
             time.sleep(1)
         

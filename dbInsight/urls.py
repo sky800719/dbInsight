@@ -30,6 +30,8 @@ urlpatterns = [
     url(r'^dbSkyEye/', include('dbSkyEye.dbSkyEyeUrls')),
     url(r'^dbSQLAudit/', include('dbSQLAudit.dbSQLAuditUrls')),
     url(r'^$', dashboardViews.index, name='index'),
+    url(r'^login$', dashboardViews.login, name='login'),
+    url(r'^sysInit$', dashboardViews.sysInit, name='sysInit'),
     url(r'^mainPageInit$', dashboardViews.mainPageInit, name='mainPageInit'),
     url(r'^commMenuInitQry$', dashboardViews.commMenuInitQry, name='commMenuInitQry'),
     url(r'^commURLSQLQuery$', dashboardViews.commURLSQLQuery, name='commURLSQLQuery'),

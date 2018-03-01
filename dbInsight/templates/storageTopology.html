@@ -1,0 +1,121 @@
+﻿{% load staticfiles %}
+
+<div class="box">
+    <div class="box-header with-border">
+        <h3 class="box-title"><strong>存储拓扑</strong></h3>
+    </div>
+    <div class="box-body">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="storageTopologyChart" style="width:880px;height:400px;margin:0 auto;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    var dom = document.getElementById("storageTopologyChart");
+    var myChart = echarts.init(dom);
+
+    var dataNode = [
+        // 一级拓扑对象
+        {"name": "3PAR 20000"},
+        // 二级拓扑对象
+        {"name": "PUBDB1"},
+        {"name": "PUBDB2"},
+        {"name": "YYDBA1"},
+        {"name": "YYDBA2"},
+        {"name": "YYDBB1"},
+        {"name": "YYDBB2"},
+        {"name": "CBDB1"},
+        {"name": "CBDB2"},
+        // 三级拓扑对象
+        {"name": "PUBDB"},
+        {"name": "YYDBA"},
+        {"name": "YYDBB"},
+        {"name": "CBDB"},
+        // 三级拓扑对象
+        {"name": "PUBDB_OCRDG"},
+        {"name": "PUBDB_ARCDG"},
+        {"name": "PUBDB_DATADG1"},
+        {"name": "YYDBA_OCRDG"},
+        {"name": "YYDBA_ARCDG"},
+        {"name": "YYDBA_DATADG1"},
+        {"name": "YYDBB_OCRDG"},
+        {"name": "YYDBB_ARCDG"},
+        {"name": "YYDBB_DATADG1"},
+        {"name": "CBDB_OCRDG"},
+        {"name": "CBDB_ARCDG"},
+        {"name": "CBDB_DATADG1"},
+    ];
+
+    var dataLinks = [
+        // 一级拓扑关系
+        {"source": "3PAR 20000", "target": "PUBDB1", "value": 0.075},
+        {"source": "3PAR 20000", "target": "PUBDB2", "value": 0.075},
+        {"source": "3PAR 20000", "target": "YYDBA1", "value": 0.2},
+        {"source": "3PAR 20000", "target": "YYDBA2", "value": 0.2},
+        {"source": "3PAR 20000", "target": "YYDBB1", "value": 0.15},
+        {"source": "3PAR 20000", "target": "YYDBB2", "value": 0.15},
+        {"source": "3PAR 20000", "target": "CBDB1", "value": 0.025},
+        {"source": "3PAR 20000", "target": "CBDB2", "value": 0.025},
+        // 二级拓扑关系
+        {"source": "PUBDB1", "target": "PUBDB", "value": 0.075},
+        {"source": "PUBDB2", "target": "PUBDB", "value": 0.075},
+        {"source": "YYDBA1", "target": "YYDBA", "value": 0.2},
+        {"source": "YYDBA2", "target": "YYDBA", "value": 0.2},
+        {"source": "YYDBB1", "target": "YYDBB", "value": 0.15},
+        {"source": "YYDBB2", "target": "YYDBB", "value": 0.15},
+        {"source": "CBDB1", "target": "CBDB", "value": 0.025},
+        {"source": "CBDB2", "target": "CBDB", "value": 0.025},
+        // 三级拓扑关系
+        {"source": "PUBDB", "target": "PUBDB_OCRDG", "value": 0.001},
+        {"source": "PUBDB", "target": "PUBDB_ARCDG", "value": 0.01},
+        {"source": "PUBDB", "target": "PUBDB_DATADG1", "value": 0.139},
+        {"source": "YYDBA", "target": "YYDBA_OCRDG", "value": 0.001},
+        {"source": "YYDBA", "target": "YYDBA_ARCDG", "value": 0.019},
+        {"source": "YYDBA", "target": "YYDBA_DATADG1", "value": 0.38},
+        {"source": "YYDBB", "target": "YYDBB_OCRDG", "value": 0.001},
+        {"source": "YYDBB", "target": "YYDBB_ARCDG", "value": 0.019},
+        {"source": "YYDBB", "target": "YYDBB_DATADG1", "value": 0.28},
+        {"source": "CBDB", "target": "CBDB_OCRDG", "value": 0.001},
+	{"source": "CBDB", "target": "CBDB_ARCDG", "value": 0.019},
+        {"source": "CBDB", "target": "CBDB_DATADG1", "value": 0.28},
+    ];
+
+    var option = {
+        title: {
+            // text: 'Sankey Diagram'
+        },
+        toolbox: { feature: { dataView: {show: true, readOnly: false}, saveAsImage: {show: true} } },
+        tooltip: {
+            trigger: 'item',
+            triggerOn: 'mousemove'
+        },
+        series: [
+            {
+                type: 'sankey',
+                layout:'none',
+                data: dataNode,
+                links: dataLinks,
+                itemStyle: {
+                    normal: {
+                        borderWidth: 1,
+                        borderColor: '#aaa'
+                    }
+                },
+                lineStyle: {
+                    normal: {
+                        curveness: 0.5
+                    }
+                }
+            }
+        ]
+    }
+
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+
+</script> 

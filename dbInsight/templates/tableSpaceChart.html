@@ -1,0 +1,128 @@
+﻿{% load staticfiles %}
+
+<div class="box">
+    <div class="box-header with-border">
+        <h3 class="box-title"><strong>表空间使用率</strong></h3>
+    </div>
+    <div class="box-body">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="tableSpaceChart" style="width:880px;height:300px;margin:0 auto;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+var dom = document.getElementById("tableSpaceChart");
+var myChart = echarts.init(dom);
+
+//var timeData = {{ tabInfoList.timeData }};
+var timeData = [1,2,3,4,5,6,7,8,9,10,11,12];
+var UsedSpaceData = [100,110,120,130,130,130,130,130,130,130,130,200];
+var FreeSpaceData = [30,20,10,0,0,0,0,0,0,0,0,0,0,0];
+var NeedSpaceData = [0,0,0,0,10,20,30,40,50,60,70,50];
+var TotalSpaceData = [130,130,130,130,140,150,160,170,180,190,200,250];
+
+option = {
+    // backgroundColor: "#FFF",
+    tooltip: { trigger: "axis", axisPointer: { type: 'shadow', textStyle: { color: '#FFF' } } },
+    toolbox: { feature: { dataView: {show: true, readOnly: false}, saveAsImage: {show: true} } },
+    grid: { show: false, borderWidth: 0, top: '20%', bottom: '15%', textStyle: { color: "#FFF" } },
+    
+    legend: {
+        x: '30%', textStyle: { color: '#90979c', },
+        data: ['UsedSpace', 'FreeSpace', 'NeedSpace', 'TotalSpace']
+    },
+
+    xAxis: [{
+        type: 'category', axisLine: { lineStyle: { color: '#90979c' } },
+        splitLine: { show: false }, axisTick: { show: false }, splitArea: { show: false }, axisLabel: { interval: 0 },
+        data: timeData,
+    }],
+    
+    yAxis: [{
+        type: 'value',
+        splitLine: { show: false },
+        axisLine: { lineStyle: { color: '#90979c' } },
+        axisTick: { show: false },
+        axisLabel: { interval: 0 },
+        splitArea: { show: false },
+    }],
+
+    series: [{
+            name: 'UsedSpace',
+            type: 'bar', stack: 'total', visualMap: false,
+            itemStyle: { normal: { color: '#1F77B4', barBorderRadius: 0,
+                    label: { show: true, textStyle: { color: '#fff' }, position: 'inside',
+                        formatter: function(p) { return p.value > 0 ? (p.value) : ''; }
+                    } }
+            },
+            data: UsedSpaceData
+        },
+        {
+            name: 'FreeSpace',
+            type: 'bar', stack: 'total', visualMap: false,
+            itemStyle: { normal: { color: '#2CA02C', barBorderRadius: 0,
+                    label: { show: true, textStyle: { color: '#fff' }, position: 'inside',
+                        formatter: function(p) { return p.value > 0 ? (p.value) : ''; }
+                    } }
+            },
+            data: FreeSpaceData
+        },
+        {
+            name: 'NeedSpace',
+            type: 'bar', stack: 'total', visualMap: false, barMaxWidth: 25, barGap: '20%',
+            itemStyle: { normal: { color: '#FF7F0E',
+                    label: { show: true, textStyle: { color: '#fff' }, position: 'inside',
+                        formatter: function(p) { return p.value > 0 ? (p.value) : ''; }
+                    } }
+            },
+            data: NeedSpaceData,
+        },
+        {
+            name: 'TotalSpace',
+            type: 'line', stack: 'total', symbolSize: 20, symbol: 'circle',
+            itemStyle: { normal: { color: '#6ca7e2', borderColor: 'transparent', barBorderRadius: 10, borderWidth: 100,
+                    label: { show: true, position: 'top',
+                        formatter: function(p) { return p.value > 0 ? (p.value) : ''; }
+                    } }
+            },
+            data: TotalSpaceData
+        },
+    ]
+}
+
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+
+/**
+
+处理点击事件并且跳转到相应的百度搜索页面
+在itemStyle中设置：
+borderWidth: 10,
+borderColor: 'transparent'
+
+可以监听到整个画布的 click 事件
+myChart.getZr().on('click',function(params){
+alert(encodeURIComponent(params.name));
+URL跳转
+location.href = '/sqlAudit/qryUser/?userID='+encodeURIComponent(params.name);
+打印对象信息
+var test = params;
+
+for(i in test ){
+    alert(i + ' -> ' + test[i]);
+}
+
+**/
+
+
+myChart.on('click',function(params){
+    alert(' seriesName => ' + params.seriesName + ' name => ' + params.name + ' data => ' + params.data + ' value => ' + params.value);
+    location.href = '/sqlAudit/qryUser/?userID='+encodeURIComponent(params.name);
+});
+
+</script> 

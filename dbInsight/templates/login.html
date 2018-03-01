@@ -1,0 +1,90 @@
+﻿{% load staticfiles %}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>数据库综合运维平台</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="{% static 'dashboard/components/bootstrap/dist/css/bootstrap.min.css' %}">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{% static 'dashboard/components/font-awesome/css/font-awesome.min.css' %}">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="{% static 'dashboard/components/Ionicons/css/ionicons.min.css' %}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{% static 'dashboard/dist/css/AdminLTE.min.css' %}">
+  <link rel="stylesheet" href="{% static 'dashboard/dist/css/skins/skin-blue.min.css' %}">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="{% static 'dashboard/components/datatables.net-bs/css/dataTables.bootstrap.min.css' %}">
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+</div>
+<!-- ./wrapper -->
+
+<body class="hold-transition login-page">
+<div class="login-box">
+  <div class="login-logo">
+    <b>数据库综合运维平台</b>
+  </div>
+  <!-- /.login-logo -->
+  <div class="login-box-body">
+
+    <form action="login" method="get">
+      <div class="form-group has-feedback">
+        <input type="text" name="userName" id="userName" class="form-control" placeholder="用户名">
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input type="password" name="passWord" id="passWord" class="form-control" placeholder="密码">
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
+      <div class="row">
+        <div class="col-xs-8">
+          <div class="checkbox icheck">
+            <label>
+            </label>
+          </div>
+        </div>
+        <!-- /.col -->
+        <div class="col-xs-4">
+          <button type="submit" class="btn btn-primary btn-block btn-flat">登录</button>
+        </div>
+        <!-- /.col -->
+      </div>
+      {% if returnMessage|length > 0 %}
+      <div class="alert alert-warning" id="alertDIV">
+            <a href="#" class="close" data-dismiss="alert"> &times; </a> <strong>警告！</strong> </br>
+            {{ returnMessage }}
+      </div>
+      <script>
+        $("#userName").val("");
+        $("#passWord").val("");
+      </script>
+      {% endif %}
+    </form>
+
+  </div>
+  <!-- /.login-box-body -->
+</div>
+<!-- /.login-box -->
+
+
+<!-- jQuery 3 -->
+<script src="{% static 'dashboard/components/jquery/dist/jquery.min.js' %}"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="{% static 'dashboard/components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+<!-- iCheck -->
+<script src="{% static 'plugins/iCheck/icheck.min.js' %}"></script>
+<!-- AdminLTE App -->
+<script src="{% static 'dashboard/dist/js/adminlte.min.js' %}"></script>
+
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+
+</body>
+</html> 

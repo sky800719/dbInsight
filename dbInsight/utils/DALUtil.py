@@ -16,7 +16,7 @@ DB_CATALOG_CONN = 'CATALOG'
 log = logging.getLogger(__name__)
 
 
-def getDBConnection(DBID):
+def getDBConnection(DBUID):
 
     # 获取数据库连接
     dbName = ''
@@ -24,7 +24,7 @@ def getDBConnection(DBID):
     msgContent = ''
 
     log.debug('开始获取数据库连接信息配置！')
-    resultList = getSQLResult(SYSConfigSQL.DBConnectInfoSQL, {'DBID': DBID})
+    resultList = getSQLResult(SYSConfigSQL.DBConnectInfoSQL, {'DB_UID': DBUID})
 
     if len(resultList) > 0:
         dbInfo = resultList[0]
@@ -275,5 +275,12 @@ def getDBCfgResult():
 
     # 用于获取DBMP_URL_SQL_MAP表URL_SQL列配置查询语句数据
     resultList = getSQLResult(SYSConfigSQL.DBInfoSQL, {})
+
+    return resultList
+
+def checkUserPass(username, password):
+
+    # 校验用户名口令是否一致
+    resultList = getSQLResult(SYSConfigSQL.CheckUserAuth, {'USER_NAME':username, 'USER_PASS':password})
 
     return resultList

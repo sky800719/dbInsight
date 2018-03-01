@@ -24,6 +24,49 @@ SECRET_KEY = 'll_@0kevvl3rm=2^5$ixu@6idwckht@781=*1w5$c!n!s2*08o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(asctime)s [%(threadName)s:%(thread)d] [%(module)s:%(funcName)s] [%(levelname)s]- %(message)s'}
+    },
+    'handlers': {
+        'default': {
+            'level': 'WARNING',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': BASE_DIR + '/log/django.log',
+            'maxBytes': 1024 * 1024 * 50,
+            'backupCount': 5,
+            'formatter': 'verbose'
+        },
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose'
+        },
+        'applog': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': BASE_DIR + '/log/django_dbInsight.log',
+            'maxBytes': 1024 * 1024 * 50,
+            'backupCount': 5,
+            'formatter': 'verbose'
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'propagate': True,
+        },
+        'dbInsight': {
+            'handlers': ['applog'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    }
+}
+
 ALLOWED_HOSTS = ['*']
 
 
@@ -113,8 +156,8 @@ DATABASES = {
 }
 
 CRONJOBS = [
-    ('*/5 * * * *', 'dbInsight.utils.dbGatherCronUtil.gatherDBData', '>>' + BASE_DIR + '/log/dbInsight_gatherDBData.log'),
-    ('*/5 * * * *', 'dbInsight.utils.dbGatherCronUtil.cleanHisDBData', '>>' + BASE_DIR + '/log/dbInsight_cleanHisDBData.log'),
+    ('*/1 * * * *', 'dbInsight.utils.dbGatherCronUtil.gatherDBData', '>>' + BASE_DIR + '/log/dbInsight_gatherDBData.log'),
+#    ('*/1 * * * *', 'dbInsight.utils.dbGatherCronUtil.cleanHisDBData', '>>' + BASE_DIR + '/log/dbInsight_cleanHisDBData.log'),
 ]
 
 # Password validation

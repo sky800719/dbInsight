@@ -10,7 +10,7 @@ from dbInsight.utils import SYSConfigSQL, DALUtil
 
 log = logging.getLogger(__name__)
 
-def dataExtract(sourceDBID, catalogDB, extractType):
+def dataExtract(sourceDBUID, catalogDB, extractType):
 
     """ 采集源端数据库数据到资料库
     """
@@ -22,7 +22,7 @@ def dataExtract(sourceDBID, catalogDB, extractType):
 
     try:
         log.debug('创建源端数据库连接！')
-        srcConnectInfo = DALUtil.getDBConnection(sourceDBID)
+        srcConnectInfo = DALUtil.getDBConnection(sourceDBUID)
 
         if srcConnectInfo['MSGCODE'] == 0:
             srcConnect = srcConnectInfo['CONNECT']
@@ -33,16 +33,16 @@ def dataExtract(sourceDBID, catalogDB, extractType):
             return ''
     except BaseException:
         log.error("源端数据库查询失败: %s", sys.exc_info()[0])
+        return ''
 
     # 创建目标端数据库连接信息
-    catalogConnect = ''
-
     try:
         log.debug('创建资料数据库连接！')
         catalogConnect = connections[catalogDB]
     except BaseException:
         log.error("资料数据库写入失败: %s", sys.exc_info()[0])
         print("资料数据库写入失败: ", sys.exc_info()[0])
+        return ''
 
     # 获取数据库采集配置信息
     extractList = DALUtil.getSQLResult(SYSConfigSQL.ExtractCfgSQL, {'EXTRACT_RULE_TYPE': 'DAILY'})
@@ -74,7 +74,7 @@ def dataExtract(sourceDBID, catalogDB, extractType):
         try:
             cursor_src = srcConnect.cursor()
 
-            extract_sql = sql_src.replace('${DB_NAME}', snapDBName).replace('${SNAP_ID}', str(snapID))
+            extract_sql = sql_src.replace('${DB_UID}', sourceDBUID).replace('${SNAP_ID}', str(snapID))
 
             log.debug('执行源端数据库查询语句：%s', extract_sql)
             cursor_src.execute(extract_sql)
@@ -93,8 +93,6 @@ def dataExtract(sourceDBID, catalogDB, extractType):
             log.debug('源端数据库查询结果解析完成！')
         except BaseException:
             log.error("源端数据库查询失败: %s", sys.exc_info()[0])
-        finally:
-            cursor_src.close()
 
         log.debug('源端数据库查询结果数据量 len(rowList) => %s', len(rowList))
 
@@ -106,7 +104,7 @@ def dataExtract(sourceDBID, catalogDB, extractType):
             catalogConnect.commit()
         except BaseException:
             log.error("资料数据库写入失败: %s", sys.exc_info()[0])
+            log.error("资料数据库写入失败: %s", sys.exc_info()[1])
+            log.error("资料数据库写入失败: %s", sys.exc_info()[2])
             print("资料数据库写入失败: ", sys.exc_info()[0])
-        finally:
-            catalogCursor.close()
 
