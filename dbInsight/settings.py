@@ -80,6 +80,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_crontab',
+    'djcelery',
     'dbInsight',
     'authManage',
     'cfgManage',
@@ -156,8 +157,8 @@ DATABASES = {
 }
 
 CRONJOBS = [
-    ('*/1 * * * *', 'dbInsight.utils.dbGatherCronUtil.gatherDBData', '>>' + BASE_DIR + '/log/dbInsight_gatherDBData.log'),
-#    ('*/1 * * * *', 'dbInsight.utils.dbGatherCronUtil.cleanHisDBData', '>>' + BASE_DIR + '/log/dbInsight_cleanHisDBData.log'),
+    ('*/1 * * * *', 'dbInsight.utils.dbGatherCronUtil.gatherDBDataJob', ['SQLAUDIT', 'MINUTE'], {}, '>>' 
+                    + BASE_DIR + '/log/dbInsight_gatherDBDataJob.log'),
 ]
 
 # Password validation
@@ -193,3 +194,35 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# 添加celery配置
+BROKER_URL ='redis://localhost:6380/0'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERYD_CONCURRENCY = 8
+CELERY_TIMEZONE = TIME_ZONE
+CELERY_IGNORE_RESULT = True
+
+# 分离2个任务队列
+from kombu import Exchange, Queue
+CELERY_QUEUES = (
+    Queue('default', Exchange('default'), routing_key='default'),
+    Queue('for_task_a', Exchange('for_task_a'), routing_key='for_task_a'),#这个是主动任务的队列
+    Queue('for_task_b', Exchange('for_task_b'), routing_key='for_task_b'),#这个是定时任务的队列
+)
+
+CELERY_ROUTES = {
+    'task_a': {'queue': 'for_task_a', 'routing_key': 'for_task_a'},
+    'task_b': {'queue': 'for_task_b', 'routing_key': 'for_task_b'},
+}
+
+from datetime import timedelta
+
+#CELERYBEAT_SCHEDULE = {
+#    'task_b': {
+#        'task': 'dbInsight.tasks.task_b',
+#        'schedule': timedelta(seconds=10),
+#        'args': (1, 1)
+#    }
+#}

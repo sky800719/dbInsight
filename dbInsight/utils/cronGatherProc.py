@@ -8,26 +8,41 @@ from urllib import request
 from .SYSConfig import SYS_URL
 
 
-class dbGatherPorc(multiprocessing.Process):
+class dbGatherTimePorc(multiprocessing.Process):
 
     """ 数据库信息采集进程定义类
     """
 
-    def __init__(self, sourceDBUID, extractType):
+    def __init__(self, sourceDBID, sourceDBNAME, gatherType, jobType):
         multiprocessing.Process.__init__(self)
-        self.sourceDBUID = sourceDBUID
-        self.extractType = extractType
+        self.sourceDBID = sourceDBID
+        self.sourceDBNAME = sourceDBNAME
+        self.gatherType = gatherType
+        self.jobType = jobType 
+
 
     def run(self):
 
-        # 连接源库与目标库数据库
+        # 调用数据库信息采集URL
+        dbGatherTimeURL = ''
+
         try:
-            print('self.sourceDBUID => ', self.sourceDBUID)
-            print('self.extractType => ', self.extractType)
-            url = SYS_URL + '/gatherDBInfo?sourceDBUID=' + self.sourceDBUID + '&extractType=' + self.extractType
-            req = request.urlopen(url)
+            dbGatherTimeURL = self.gatherType + '->' + self.jobType + ' 调用数据库信息采集'
+
+            #print(dbGatherTimeURL, ', self.sourceDBID => ', self.sourceDBID)
+            #print(dbGatherTimeURL, ', self.sourceDBNAME => ', self.sourceDBNAME)
+            #print(dbGatherTimeURL, ', self.gatherType => ', self.gatherType)
+            #print(dbGatherTimeURL, ', self.jobType => ', self.jobType)
+            gatherURL = SYS_URL + '/gatherDBInfo?sourceDBID=' + self.sourceDBID + \
+                                         '&sourceDBNAME=' + self.sourceDBNAME + \
+                                         '&gatherType=' + self.gatherType + \
+                                         '&jobType=' + self.jobType
+            #print(dbGatherTimeURL, ', URL -> ', gatherURL)
+            req = request.urlopen(gatherURL)
         except BaseException:
-            print("定时任务执行失败: ", sys.exc_info()[1])
+            print(dbGatherTimeURL, ' 执行失败: ', sys.exc_info()[0])
+            print(dbGatherTimeURL, ' 执行失败: ', sys.exc_info()[1])
+            print(dbGatherTimeURL, ' 执行失败: ', sys.exc_info()[2])
 
 
 class osGatherPorc(multiprocessing.Process):

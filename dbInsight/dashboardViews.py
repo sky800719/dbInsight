@@ -3,8 +3,12 @@
 import logging
 from django.shortcuts import render_to_response
 from django.http import HttpResponseRedirect
+from django.views.generic.base import View
 
 from .utils import DALUtil, DataGatherUtil, SYSConfig, authCheck
+
+from django.http import HttpResponse
+from .tasks import task_a
 
 log = logging.getLogger(__name__)
 
@@ -164,3 +168,7 @@ def commURLSQLQuery(request):
     returnDict['returnMessage'] = returnMessage
 
     return render_to_response(returnURL, returnDict)
+
+def get(request):
+    task_a.delay()  # 发送消息，触发后台任务
+    return HttpResponse("django and celery!")

@@ -16,7 +16,7 @@ DB_CATALOG_CONN = 'CATALOG'
 log = logging.getLogger(__name__)
 
 
-def getDBConnection(DBUID):
+def getDBConnection(sourceDBID, sourceDBNAME):
 
     # 获取数据库连接
     dbName = ''
@@ -24,7 +24,7 @@ def getDBConnection(DBUID):
     msgContent = ''
 
     log.debug('开始获取数据库连接信息配置！')
-    resultList = getSQLResult(SYSConfigSQL.DBConnectInfoSQL, {'DB_UID': DBUID})
+    resultList = getSQLResult(SYSConfigSQL.DBConnectInfoSQL, {'DB_ID': sourceDBID, 'DB_NAME': sourceDBNAME})
 
     if len(resultList) > 0:
         dbInfo = resultList[0]
@@ -122,7 +122,7 @@ def getSQLResult(SQLStr, bindList):
     finally:
         cursor.close()
 
-    #log.debug("查询返回结果 resultList => %s", resultList)
+    log.debug("查询返回结果 resultList => %s", resultList)
 
     return resultList
 

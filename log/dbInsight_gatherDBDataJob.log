@@ -1,0 +1,887 @@
+------------------------------------------------------------------------------------------
+MINUTE调用任务 , 开始:  2018-04-19 14:54:03
+获取采集数据库配置信息 , 开始:  2018-04-19 14:54:03
+调用数据库信息采集 , self.sourceDBID =>  111
+调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+调用数据库信息采集 , self.gatherType =>  DAILY
+调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=DAILY
+获取采集数据库配置信息 , 结束:  2018-04-19 14:54:04
+MINUTE调用任务 , 结束:  2018-04-19 14:54:04
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+MINUTE调用任务 , 开始:  2018-04-19 14:55:02
+获取采集数据库配置信息 , 开始:  2018-04-19 14:55:02
+调用数据库信息采集 , self.sourceDBID =>  111
+调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+调用数据库信息采集 , self.gatherType =>  DAILY
+调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=DAILY
+获取采集数据库配置信息 , 结束:  2018-04-19 14:55:03
+MINUTE调用任务 , 结束:  2018-04-19 14:55:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+MINUTE调用任务 , 开始:  2018-04-19 14:56:01
+获取采集数据库配置信息 , 开始:  2018-04-19 14:56:01
+调用数据库信息采集 , self.sourceDBID =>  111
+调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+调用数据库信息采集 , self.gatherType =>  MINUTE
+调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=MINUTE
+获取采集数据库配置信息 , 结束:  2018-04-19 14:56:02
+MINUTE调用任务 , 结束:  2018-04-19 14:56:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+MINUTE调用任务 , 开始:  2018-04-19 14:57:01
+获取采集数据库配置信息 , 开始:  2018-04-19 14:57:01
+调用数据库信息采集 , self.sourceDBID =>  111
+调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+调用数据库信息采集 , self.jobType =>  MINUTE
+调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&jobType=MINUTE
+获取采集数据库配置信息 , 结束:  2018-04-19 14:57:02
+MINUTE调用任务 , 结束:  2018-04-19 14:57:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+MINUTE调用任务 , 开始:  2018-04-19 14:58:02
+获取采集数据库配置信息 , 开始:  2018-04-19 14:58:02
+调用数据库信息采集 , self.sourceDBID =>  111
+调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+调用数据库信息采集 , self.jobType =>  MINUTE
+调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&jobType=MINUTE
+获取采集数据库配置信息 , 结束:  2018-04-19 14:58:03
+MINUTE调用任务 , 结束:  2018-04-19 14:58:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+MINUTE调用任务 , 开始:  2018-04-19 14:59:02
+获取采集数据库配置信息 , 开始:  2018-04-19 14:59:02
+获取采集数据库配置信息 , 结束:  2018-04-19 14:59:03
+MINUTE调用任务 , 结束:  2018-04-19 14:59:03
+------------------------------------------------------------------------------------------
+调用数据库信息采集 , self.sourceDBID =>  111
+调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+调用数据库信息采集 , self.jobType =>  MINUTE
+调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&jobType=MINUTE
+------------------------------------------------------------------------------------------
+MINUTE调用任务 , 开始:  2018-04-19 15:00:02
+获取采集数据库配置信息 , 开始:  2018-04-19 15:00:02
+获取采集数据库配置信息 , 结束:  2018-04-19 15:00:03
+MINUTE调用任务 , 结束:  2018-04-19 15:00:03
+------------------------------------------------------------------------------------------
+调用数据库信息采集 , self.sourceDBID =>  111
+调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+调用数据库信息采集 , self.jobType =>  MINUTE
+调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&jobType=MINUTE
+------------------------------------------------------------------------------------------
+MINUTE调用任务 , 开始:  2018-04-19 15:01:02
+获取采集数据库配置信息 , 开始:  2018-04-19 15:01:02
+调用数据库信息采集 , self.sourceDBID =>  111
+调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+调用数据库信息采集 , self.jobType =>  MINUTE
+调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&jobType=MINUTE
+获取采集数据库配置信息 , 结束:  2018-04-19 15:01:03
+MINUTE调用任务 , 结束:  2018-04-19 15:01:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+MINUTE调用任务 , 开始:  2018-04-19 15:02:02
+获取采集数据库配置信息 , 开始:  2018-04-19 15:02:02
+调用数据库信息采集 , self.sourceDBID =>  111
+调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+调用数据库信息采集 , self.jobType =>  MINUTE
+调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&jobType=MINUTE
+获取采集数据库配置信息 , 结束:  2018-04-19 15:02:03
+MINUTE调用任务 , 结束:  2018-04-19 15:02:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+MINUTE调用任务 , 开始:  2018-04-19 15:03:02
+获取采集数据库配置信息 , 开始:  2018-04-19 15:03:02
+调用数据库信息采集 , self.sourceDBID =>  111
+调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+调用数据库信息采集 , self.jobType =>  MINUTE
+调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&jobType=MINUTE
+获取采集数据库配置信息 , 结束:  2018-04-19 15:03:03
+MINUTE调用任务 , 结束:  2018-04-19 15:03:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE调用任务 , 开始:  2018-04-19 15:09:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:09:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'TypeError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s __init__() takes 4 positional arguments but 5 were given
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7f1b2e9690c8>
+SQLAUDIT->MINUTE调用任务 , 结束:  2018-04-19 15:09:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE调用任务 , 开始:  2018-04-19 15:10:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:10:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'TypeError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s __init__() takes 4 positional arguments but 5 were given
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7f0a7eeb57c8>
+SQLAUDIT->MINUTE调用任务 , 结束:  2018-04-19 15:10:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE调用任务 , 开始:  2018-04-19 15:11:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:11:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:11:02
+SQLAUDIT->MINUTE调用任务 , 结束:  2018-04-19 15:11:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE调用任务 , 开始:  2018-04-19 15:12:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:12:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:12:02
+SQLAUDIT->MINUTE调用任务 , 结束:  2018-04-19 15:12:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE调用任务 , 开始:  2018-04-19 15:13:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:13:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:13:03
+SQLAUDIT->MINUTE调用任务 , 结束:  2018-04-19 15:13:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE调用任务 , 开始:  2018-04-19 15:14:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:14:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:14:02
+SQLAUDIT->MINUTE调用任务 , 结束:  2018-04-19 15:14:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE调用任务 , 开始:  2018-04-19 15:15:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:15:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:15:03
+SQLAUDIT->MINUTE调用任务 , 结束:  2018-04-19 15:15:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE调用任务 , 开始:  2018-04-19 15:16:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:16:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:16:03
+SQLAUDIT->MINUTE调用任务 , 结束:  2018-04-19 15:16:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:17:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:17:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:17:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:17:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:18:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:18:02
+dbList ->  [{'DB_UID': 1, 'DB_ID': 111, 'DB_NAME': 'sqlaudit'}]
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:18:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:18:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:19:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:19:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:19:02
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:19:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:20:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:20:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:20:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:20:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:21:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:21:02
+class dbGatherTimePorc initial <dbGatherTimePorc(dbGatherTimePorc-1, initial)>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:21:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:21:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:22:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:22:03
+class dbGatherTimePorc initial <dbGatherTimePorc(dbGatherTimePorc-1, initial)>
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <class 'urllib.error.HTTPError'>
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  HTTP Error 500: Internal Server Error
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <traceback object at 0x7fca7c81f708>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:22:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:22:04
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:23:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:23:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:23:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:23:03
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <class 'urllib.error.HTTPError'>
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  HTTP Error 500: Internal Server Error
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <traceback object at 0x7f9ab83e0848>
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:24:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:24:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <class 'urllib.error.HTTPError'>
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  HTTP Error 500: Internal Server Error
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <traceback object at 0x7fbbf6618608>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:24:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:24:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:25:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:25:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:25:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:25:04
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <class 'urllib.error.HTTPError'>
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  HTTP Error 500: Internal Server Error
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <traceback object at 0x7f4460ec9608>
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:26:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:26:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:26:02
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:26:02
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <class 'urllib.error.HTTPError'>
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  HTTP Error 500: Internal Server Error
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <traceback object at 0x7ff126419688>
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:27:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:27:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:27:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:27:04
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <class 'urllib.error.HTTPError'>
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  HTTP Error 500: Internal Server Error
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <traceback object at 0x7fc5404c1608>
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:28:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:28:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:28:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:28:03
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <class 'urllib.error.HTTPError'>
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  HTTP Error 500: Internal Server Error
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <traceback object at 0x7faced753608>
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:29:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:29:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:29:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:29:03
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <class 'urllib.error.HTTPError'>
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  HTTP Error 500: Internal Server Error
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <traceback object at 0x7f5637152608>
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:30:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:30:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:30:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:30:03
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <class 'urllib.error.HTTPError'>
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  HTTP Error 500: Internal Server Error
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <traceback object at 0x7f600e3f8848>
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:31:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:31:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <class 'urllib.error.HTTPError'>
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  HTTP Error 500: Internal Server Error
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <traceback object at 0x7f275012e848>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:31:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:31:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:32:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:32:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <class 'urllib.error.HTTPError'>
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  HTTP Error 500: Internal Server Error
+SQLAUDIT->MINUTE 调用数据库信息采集  执行失败:  <traceback object at 0x7f27c8c136c8>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:32:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:32:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:33:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:33:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:33:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:33:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:34:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:34:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:34:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:34:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:35:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:35:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:35:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:35:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:36:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:36:03
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:36:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:36:04
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:37:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:37:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:37:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:37:03
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:38:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:38:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:38:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:38:03
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:39:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:39:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:39:02
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:39:02
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:40:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:40:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:40:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:40:04
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:41:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:41:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:41:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:41:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:42:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:42:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:42:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:42:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:43:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:43:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:43:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:43:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:44:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:44:01
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:44:02
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:44:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:45:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:45:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:45:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:45:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:46:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:46:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:46:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:46:03
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:47:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:47:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:47:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:47:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:48:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:48:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:48:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:48:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:49:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:49:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBID =>  111
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.sourceDBNAME =>  sqlaudit
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.gatherType =>  SQLAUDIT
+SQLAUDIT->MINUTE 调用数据库信息采集 , self.jobType =>  MINUTE
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:49:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:49:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:50:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:50:01
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:50:02
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:50:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:51:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:51:01
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:51:02
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:51:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:52:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:52:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:52:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:52:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:53:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:53:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:53:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:53:03
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:54:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:54:02
+SQLAUDIT->MINUTE 调用数据库信息采集 , URL ->  http://192.168.56.200:8000/gatherDBInfo?sourceDBID=111&sourceDBNAME=sqlaudit&gatherType=SQLAUDIT&jobType=MINUTE
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:54:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:54:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:55:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:55:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:55:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:55:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:56:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:56:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:56:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:56:04
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:57:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:57:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:57:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:57:04
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:58:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:58:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:58:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:58:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 15:59:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 15:59:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 15:59:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 15:59:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:00:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:00:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:00:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:00:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:01:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:01:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:01:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:01:04
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:02:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:02:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:02:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:02:04
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:03:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:03:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:03:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:03:04
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:04:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:04:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:04:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:04:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:05:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:05:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:05:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:05:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:06:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:06:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:06:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:06:04
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:07:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:07:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:07:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:07:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:08:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:08:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:08:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:08:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:09:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:09:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:09:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:09:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:10:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:10:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:10:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:10:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:11:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:11:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:11:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:11:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:12:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:12:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:12:02
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:12:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:13:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:13:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:13:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:13:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:14:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:14:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:14:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:14:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:15:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:15:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:15:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:15:04
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:16:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:16:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:16:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:16:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:17:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:17:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:17:02
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:17:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:18:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:18:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:18:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:18:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:19:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:19:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:19:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:19:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:20:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:20:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:20:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:20:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:21:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:21:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:21:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:21:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:22:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:22:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:22:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:22:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:23:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:23:03
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:23:04
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:23:04
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:24:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:24:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:24:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:24:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-19 16:25:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-19 16:25:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-19 16:25:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-19 16:25:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 01:51:58
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 01:51:58
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7fe23b79f548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 01:51:58
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 01:51:58
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 01:51:58
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7ff1fc5bb548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 01:51:58
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 01:52:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 01:52:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7fe264c4b588>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 01:52:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 01:53:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 01:53:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7f403637c548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 01:53:01
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 01:54:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 01:54:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7fa395403548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 01:54:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 01:55:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 01:55:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7f22a2a0e548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 01:55:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 01:56:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 01:56:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7f8b6e4ac548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 01:56:01
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 01:57:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 01:57:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7f02ab489548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 01:57:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 01:58:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 01:58:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7f13d1877548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 01:58:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 01:59:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 01:59:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7fef88141548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 01:59:01
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 02:00:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 02:00:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-20 02:00:08
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 02:00:08
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 02:01:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 02:01:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-20 02:01:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 02:01:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 02:02:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 02:02:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-20 02:02:03
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 02:02:03
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 10:02:24
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 10:02:24
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 结束:  2018-04-20 10:02:26
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 10:02:26
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 10:04:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 10:04:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7fd26fa37588>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 10:04:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 10:05:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 10:05:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7febaead8548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 10:05:01
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 10:06:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 10:06:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7f8e266db548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 10:06:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 10:07:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 10:07:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7f0f1b3f2548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 10:07:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 10:08:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 10:08:02
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7f54699f4588>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 10:08:02
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+SQLAUDIT->MINUTE 调用任务 , 开始:  2018-04-20 10:09:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 开始:  2018-04-20 10:09:01
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <class 'urllib.error.URLError'>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <urlopen error [Errno 111] Connection refused>
+SQLAUDIT->MINUTE 获取采集数据库配置信息 , 执行失败: %s <traceback object at 0x7fb5520c1548>
+SQLAUDIT->MINUTE 调用任务 , 结束:  2018-04-20 10:09:01
+------------------------------------------------------------------------------------------

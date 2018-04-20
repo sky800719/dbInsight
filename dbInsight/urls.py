@@ -30,6 +30,7 @@ urlpatterns = [
     url(r'^dbSkyEye/', include('dbSkyEye.dbSkyEyeUrls')),
     url(r'^dbSQLAudit/', include('dbSQLAudit.dbSQLAuditUrls')),
     url(r'^$', dashboardViews.index, name='index'),
+    url(r'^get/', dashboardViews.get, name='get'), # celery test URL
     url(r'^login$', dashboardViews.login, name='login'),
     url(r'^sysInit$', dashboardViews.sysInit, name='sysInit'),
     url(r'^mainPageInit$', dashboardViews.mainPageInit, name='mainPageInit'),
