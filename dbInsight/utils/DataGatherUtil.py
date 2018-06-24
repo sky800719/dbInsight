@@ -6,7 +6,7 @@ import logging
 
 from django.db import connection
 from django.db import connections
-from dbInsight.utils import SYSConfigSQL, DALUtil
+from dbInsight.utils import SYSConfigSQL, DBDirectUtil
 
 log = logging.getLogger(__name__)
 
@@ -22,7 +22,7 @@ def dataExtract(sourceDBID, sourceDBNAME, catalogDB, gatherType, jobType):
 
     try:
         log.debug('开始创建源端数据库连接！')
-        srcConnectInfo = DALUtil.getDBConnection(sourceDBID, sourceDBNAME)
+        srcConnectInfo = DBDirectUtil.getDBConnection(sourceDBID, sourceDBNAME)
 
         if srcConnectInfo['MSGCODE'] == 0:
             srcConnect = srcConnectInfo['CONNECT']
@@ -39,10 +39,18 @@ def dataExtract(sourceDBID, sourceDBNAME, catalogDB, gatherType, jobType):
         return ''
 
     # 创建目标端数据库连接信息
+    catalogConnectInfo = ''
+    catalogConnect = ''
+
     try:
         log.debug('开始创建资料数据库连接！')
-        catalogConnect = connections[catalogDB]
-        log.debug('创建资料数据库连接完成！')
+        catalogConnectInfo = DBDirectUtil.getCatalogDBConn()
+
+        if catalogConnectInfo['MSGCODE'] == 0:
+            catalogConnect = catalogConnectInfo['CONNECT'].cursor()
+        else:
+            log.error('创建源端数据库连接失败！')
+            log.error('写错误日志表')
     except BaseException:
         log.error("创建资料数据库连接失败: %s", sys.exc_info()[0])
         log.error("创建资料数据库连接失败: %s", sys.exc_info()[1])
@@ -59,7 +67,7 @@ def dataExtract(sourceDBID, sourceDBNAME, catalogDB, gatherType, jobType):
         print('jobType => ', jobType)
 
         # 根据crontab参数，获取对应的查询采集语句
-        extractList = DALUtil.getSQLResult(SYSConfigSQL.ExtractCfgSQL, {'EXTRACT_RULE_TYPE': 'DAILY'})
+        extractList = DBDirectUtil.getSQLResult(SYSConfigSQL.ExtractCfgSQL, {'EXTRACT_RULE_TYPE': 'DAILY'})
     except BaseException:
         log.error("获取数据库采集配置信息失败: %s", sys.exc_info()[0])
         log.error("获取数据库采集配置信息失败: %s", sys.exc_info()[1])
@@ -94,7 +102,7 @@ def dataExtract(sourceDBID, sourceDBNAME, catalogDB, gatherType, jobType):
             # 获取源库语句执行结果
             log.debug("开始获取源端数据库采集结果！")
             result_src = cursor_src.fetchall()
-            columnList = DALUtil.qrySQLColParse(cursor_src)
+            columnList = DBDirectUtil.qrySQLColParse(cursor_src)
 
             # 处理查询结果集
             log.debug("开始获取源端数据库采集结果！")

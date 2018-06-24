@@ -5,8 +5,10 @@ import time
 import multiprocessing
 from urllib import request
 
-from .SYSConfig import SYS_URL
+from .SYSConfig import SYS_URL, DB_CATALOG_CONN
+from . import DataGatherUtil
 
+#import DALUtil,DataGatherUtil,SYSConfig
 
 class dbGatherTimePorc(multiprocessing.Process):
 
@@ -33,12 +35,15 @@ class dbGatherTimePorc(multiprocessing.Process):
             #print(dbGatherTimeURL, ', self.sourceDBNAME => ', self.sourceDBNAME)
             #print(dbGatherTimeURL, ', self.gatherType => ', self.gatherType)
             #print(dbGatherTimeURL, ', self.jobType => ', self.jobType)
-            gatherURL = SYS_URL + '/gatherDBInfo?sourceDBID=' + self.sourceDBID + \
-                                         '&sourceDBNAME=' + self.sourceDBNAME + \
-                                         '&gatherType=' + self.gatherType + \
-                                         '&jobType=' + self.jobType
+            #gatherURL = SYS_URL + '/gatherDBInfo?sourceDBID=' + self.sourceDBID + \
+            #                             '&sourceDBNAME=' + self.sourceDBNAME + \
+            #                             '&gatherType=' + self.gatherType + \
+            #                             '&jobType=' + self.jobType
+
+            DataGatherUtil.dataExtract(self.sourceDBID, self.sourceDBNAME, DB_CATALOG_CONN, self.gatherType, self.jobType)
+
             #print(dbGatherTimeURL, ', URL -> ', gatherURL)
-            req = request.urlopen(gatherURL)
+            #req = request.urlopen(gatherURL)
         except BaseException:
             print(dbGatherTimeURL, ' 执行失败: ', sys.exc_info()[0])
             print(dbGatherTimeURL, ' 执行失败: ', sys.exc_info()[1])

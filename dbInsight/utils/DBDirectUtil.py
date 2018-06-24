@@ -1,20 +1,46 @@
 # -*- coding:utf-8 -*-
 
-from django.db import connection
-from django.db import connections
-
 import sys
 import cx_Oracle
 import logging
 
 from dbInsight.utils import SYSConfigSQL
-
-# 定义数据库连接信息
-DB_QUERY_CONN = 'QUERY'
-DB_CATALOG_CONN = 'CATALOG'
+from .SYSConfig import CATALOG_DB_IP,CATALOG_DB_PORT,CATALOG_DB_DBNAME,CATALOG_DB_USER,CATALOG_DB_PASS
 
 log = logging.getLogger(__name__)
 
+def getCatalogDBConn():
+
+    # 获取数据库连接
+    msgCode = 0
+    msgContent = ''
+
+    try:
+        log.debug('开始创建资料数据库[' + CATALOG_DB_DBNAME + ']连接！')
+
+        # 创建数据库连接信息
+        oradns = cx_Oracle.makedsn(CATALOG_DB_IP, CATALOG_DB_PORT, service_name=CATALOG_DB_DBNAME)
+        
+        # 连接源库与目标库数据库
+        dbConn = cx_Oracle.connect(CATALOG_DB_USER, CATALOG_DB_PASS, oradns)
+
+        log.debug('资料数据库连接创建成功！')
+    except BaseException:
+        log.error("资料数据库连接创建失败: %s", sys.exc_info()[0])
+        log.error("资料数据库连接创建失败: %s", sys.exc_info()[1])
+        log.error("资料数据库连接创建失败: %s", sys.exc_info()[2])
+        msgCode = -1
+        msgContent = '资料数据库连接创建失败' + sys.exc_info()[1]
+
+    returnDict = {
+        'CONNECT': dbConn,
+        'DBNAME': CATALOG_DB_DBNAME,
+        'MSGCODE': msgCode,
+        'MSGCONTENT': msgContent}
+
+    log.debug('数据库连接信息 => %s', returnDict)
+
+    return returnDict
 
 def getDBConnection(sourceDBID, sourceDBNAME):
 
@@ -74,7 +100,8 @@ def getSQLSingleCell(SQLStr, bindList):
     resultStr = ""
 
     try:
-        cursor = connections[DB_QUERY_CONN].cursor()
+        catalogConnectInfo = getCatalogDBConn()
+        cursor = catalogConnectInfo['CONNECT'].cursor()
         cursor.execute(SQLStr, bindList)
         result = cursor.fetchmany(1)
 
@@ -100,7 +127,8 @@ def getSQLResult(SQLStr, bindList):
     resultList = []
 
     try:
-        cursor = connections[DB_QUERY_CONN].cursor()
+        catalogConnectInfo = getCatalogDBConn()
+        cursor = catalogConnectInfo['CONNECT'].cursor()
         cursor.execute(SQLStr, bindList)
 
         # 获取配置语句查询列名称
@@ -136,7 +164,8 @@ def getSQLResultWithColName(SQLStr, bindList):
     resultList = []
 
     try:
-        cursor = connections[DB_QUERY_CONN].cursor()
+        catalogConnectInfo = getCatalogDBConn()
+        cursor = catalogConnectInfo['CONNECT'].cursor()
         cursor.execute(SQLStr, bindList)
 
         # 获取配置语句查询列名称
@@ -194,7 +223,8 @@ def getCfgSQLAndBind(SQLStr, bindList):
     resultBindList = {}
 
     try:
-        cursor = connections[DB_QUERY_CONN].cursor()
+        catalogConnectInfo = getCatalogDBConn()
+        cursor = catalogConnectInfo['CONNECT'].cursor()
         cursor.execute(SQLStr, bindList)
         result = cursor.fetchmany(1)
 

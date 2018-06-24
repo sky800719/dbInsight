@@ -1,3 +1,3 @@
-import authCheck
+from cronGatherProcProxy import dbGatherTimeProxy
 
-print(authCheck.passEncrypt('admin123'))
+dbGatherTimeProxy(1,2)
