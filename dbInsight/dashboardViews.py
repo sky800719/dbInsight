@@ -1,7 +1,9 @@
 # -*- coding:utf-8 -*-
 
 import logging
+from django.shortcuts import render
 from django.shortcuts import render_to_response
+from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from django.views.generic.base import View
 
@@ -74,7 +76,7 @@ def sysInit(request):
     dbList = DALUtil.getDBCfgResult()
     returnDict['dbList'] = dbList
 
-    return render_to_response('index.html', returnDict)
+    return render(request, 'index.html', returnDict)
 
 
 def mainPageInit(request):

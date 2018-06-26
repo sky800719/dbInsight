@@ -1,0 +1,1424 @@
+2018-06-25 02:38:02,908 [Thread-1:139896445396736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:39:02,894 [Thread-3:139896445396736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:40:03,187 [Thread-4:139896445396736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:41:02,192 [Thread-5:139896445396736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:41:39,676 [Thread-6:139896445396736] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2726
+2018-06-25 02:41:39,788 [Thread-11:139896290887424] [basehttp:log_message] [INFO]- "GET /static/dashboard/dist/css/skins/skin-blue.min.css HTTP/1.1" 200 3156
+2018-06-25 02:41:39,800 [Thread-12:139895943198464] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/datatables.net-bs/css/dataTables.bootstrap.min.css HTTP/1.1" 200 4188
+2018-06-25 02:41:39,805 [Thread-9:139896423892736] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/Ionicons/css/ionicons.min.css HTTP/1.1" 200 51284
+2018-06-25 02:41:39,823 [Thread-10:139896301377280] [basehttp:log_message] [INFO]- "GET /static/dashboard/dist/css/AdminLTE.min.css HTTP/1.1" 200 91501
+2018-06-25 02:41:39,825 [Thread-8:139896445396736] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+2018-06-25 02:41:39,863 [Thread-7:139896434644736] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 121200
+2018-06-25 02:41:39,883 [Thread-13:139896290887424] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/jquery/dist/jquery.min.js HTTP/1.1" 200 86659
+2018-06-25 02:41:39,903 [Thread-15:139896423892736] [basehttp:log_message] [INFO]- "GET /static/plugins/iCheck/icheck.min.js HTTP/1.1" 200 4516
+2018-06-25 02:41:39,911 [Thread-16:139896301377280] [basehttp:log_message] [INFO]- "GET /static/dashboard/dist/js/adminlte.min.js HTTP/1.1" 200 12819
+2018-06-25 02:41:39,912 [Thread-14:139895932708608] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 37045
+2018-06-25 02:41:39,987 [Thread-17:139895932708608] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+2018-06-25 02:41:40,121 [Thread-18:139895932708608] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-06-25 02:41:40,122 [Thread-18:139895932708608] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 4047
+2018-06-25 02:41:41,653 [Thread-19:139895932708608] [basehttp:log_message] [INFO]- "GET /login?userName=admin&passWord=admin123 HTTP/1.1" 302 0
+2018-06-25 02:41:41,861 [Thread-20:139895932708608] [basehttp:log_message] [INFO]- "GET /sysInit HTTP/1.1" 200 18148
+2018-06-25 02:41:43,975 [Thread-23:139896423892736] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/datatables.net-bs/js/dataTables.bootstrap.min.js HTTP/1.1" 200 1966
+2018-06-25 02:41:44,009 [Thread-25:139896290887424] [basehttp:log_message] [INFO]- "GET /static/dashboard/dist/img/user2-160x160.jpg HTTP/1.1" 200 7070
+2018-06-25 02:41:44,030 [Thread-22:139896301377280] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/datatables.net/js/jquery.dataTables.min.js HTTP/1.1" 200 83268
+2018-06-25 02:41:44,035 [Thread-21:139895932708608] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/jquery-ui/jquery-ui.min.js HTTP/1.1" 200 240427
+2018-06-25 02:41:44,036 [Thread-26:139895943198464] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+2018-06-25 02:41:44,157 [Thread-24:139896434644736] [basehttp:log_message] [INFO]- "GET /static/plugins/ECharts/echarts.min.js HTTP/1.1" 200 663799
+2018-06-25 02:41:44,596 [Thread-27:139896434644736] [basehttp:log_message] [INFO]- "GET /mainPageInit?urlQryType=instanceQry HTTP/1.1" 200 12756
+2018-06-25 02:41:44,811 [Thread-28:139896434644736] [basehttp:log_message] [INFO]- "GET /static/dashboard/components/datatables.net/js/Chinese.json HTTP/1.1" 200 715
+2018-06-25 02:41:54,235 [Thread-29:139896434644736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=tableSpaceQuery HTTP/1.1" 200 1267
+2018-06-25 02:41:54,376 [Thread-30:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=tableSpaceChart HTTP/1.1" 200 4397
+2018-06-25 02:41:54,425 [Thread-32:139895932708608] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=dataFileQuery HTTP/1.1" 200 9319
+2018-06-25 02:42:01,375 [Thread-33:139895932708608] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=redoQuery HTTP/1.1" 200 1237
+2018-06-25 02:42:01,613 [Thread-35:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoFileQuery HTTP/1.1" 200 2193
+2018-06-25 02:42:01,675 [Thread-36:139896423892736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoLogQuery HTTP/1.1" 200 3501
+2018-06-25 02:42:01,884 [Thread-34:139895932708608] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoSwitchQuery HTTP/1.1" 200 3063
+2018-06-25 02:42:02,528 [Thread-37:139895932708608] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:42:03,850 [Thread-38:139895932708608] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=controlQuery HTTP/1.1" 200 887
+2018-06-25 02:42:03,957 [Thread-39:139895932708608] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=controlQuery&urlQryAction=controlQuery HTTP/1.1" 200 1657
+2018-06-25 02:42:04,022 [Thread-40:139896423892736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=controlQuery&urlQryAction=controlFileInfoQuery HTTP/1.1" 200 19576
+2018-06-25 02:42:05,630 [Thread-41:139896423892736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=redoQuery HTTP/1.1" 200 1237
+2018-06-25 02:42:05,747 [Thread-43:139895932708608] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoFileQuery HTTP/1.1" 200 2193
+2018-06-25 02:42:05,783 [Thread-44:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoLogQuery HTTP/1.1" 200 3501
+2018-06-25 02:42:05,858 [Thread-42:139896423892736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoSwitchQuery HTTP/1.1" 200 3063
+2018-06-25 02:42:16,435 [Thread-31:139895943198464] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=tableSpaceQuery HTTP/1.1" 200 5414
+2018-06-25 02:43:02,570 [Thread-45:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:44:02,624 [Thread-46:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:45:02,685 [Thread-47:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:46:03,191 [Thread-48:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:47:02,130 [Thread-49:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:48:02,089 [Thread-50:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:49:02,032 [Thread-51:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:50:02,148 [Thread-52:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:51:02,143 [Thread-53:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:52:02,086 [Thread-54:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:53:02,102 [Thread-55:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:54:02,025 [Thread-56:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:55:01,996 [Thread-57:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:55:18,505 [Thread-58:139895943198464] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=redoQuery HTTP/1.1" 200 1237
+2018-06-25 02:55:18,593 [Thread-60:139896423892736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoFileQuery HTTP/1.1" 200 2193
+2018-06-25 02:55:18,623 [Thread-61:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoLogQuery HTTP/1.1" 200 3501
+2018-06-25 02:55:18,673 [Thread-59:139895943198464] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoSwitchQuery HTTP/1.1" 200 3063
+2018-06-25 02:55:19,646 [Thread-62:139895943198464] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=controlQuery HTTP/1.1" 200 887
+2018-06-25 02:55:19,706 [Thread-63:139895943198464] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=controlQuery&urlQryAction=controlQuery HTTP/1.1" 200 1657
+2018-06-25 02:55:19,736 [Thread-64:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=controlQuery&urlQryAction=controlFileInfoQuery HTTP/1.1" 200 19576
+2018-06-25 02:55:30,072 [Thread-65:139896434644736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=dbWaitQuery HTTP/1.1" 200 475
+2018-06-25 02:55:30,130 [Thread-66:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=dbWaitQuery&urlQryAction=dbWaitQuery HTTP/1.1" 200 2053
+2018-06-25 02:55:31,879 [Thread-67:139896434644736] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /commMenuInitQry
+Traceback (most recent call last):
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/dbInsight/dbInsight/dbInsight/dashboardViews.py", line 134, in commMenuInitQry
+    menuDict = menuList[0]
+IndexError: list index out of range
+2018-06-25 02:55:31,993 [Thread-67:139896434644736] [basehttp:log_message] [ERROR]- "GET /commMenuInitQry?urlQryType=dbTimeQuery HTTP/1.1" 500 17006
+2018-06-25 02:55:33,925 [Thread-68:139896434644736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=storageTopology HTTP/1.1" 200 495
+2018-06-25 02:55:33,997 [Thread-69:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=storageTopology&urlQryAction=storageTopology HTTP/1.1" 200 4344
+2018-06-25 02:55:36,348 [Thread-70:139896434644736] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /commMenuInitQry
+Traceback (most recent call last):
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/dbInsight/dbInsight/dbInsight/dashboardViews.py", line 134, in commMenuInitQry
+    menuDict = menuList[0]
+IndexError: list index out of range
+2018-06-25 02:55:36,389 [Thread-70:139896434644736] [basehttp:log_message] [ERROR]- "GET /commMenuInitQry?urlQryType=RACTopology HTTP/1.1" 500 17006
+2018-06-25 02:55:37,865 [Thread-71:139896434644736] [basehttp:log_message] [INFO]- "GET /cfgManage/menuConfig HTTP/1.1" 200 1955
+2018-06-25 02:56:02,069 [Thread-72:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:57:02,041 [Thread-73:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:58:02,019 [Thread-74:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 02:59:02,003 [Thread-75:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:00:02,113 [Thread-76:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:01:02,074 [Thread-77:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:02:02,011 [Thread-78:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:03:02,054 [Thread-79:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:04:01,982 [Thread-80:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:05:02,023 [Thread-81:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:06:02,006 [Thread-82:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:07:01,949 [Thread-83:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:08:01,998 [Thread-84:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:09:01,985 [Thread-85:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:10:02,080 [Thread-86:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:11:02,026 [Thread-87:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:12:01,952 [Thread-88:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:13:01,912 [Thread-89:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:14:02,843 [Thread-90:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:15:02,900 [Thread-91:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:16:02,910 [Thread-92:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:17:02,857 [Thread-93:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:18:02,785 [Thread-94:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:19:02,721 [Thread-95:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:20:02,872 [Thread-96:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:21:03,004 [Thread-97:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:22:01,937 [Thread-98:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:23:01,867 [Thread-99:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:24:02,830 [Thread-100:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:25:02,763 [Thread-101:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:26:02,903 [Thread-102:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:27:03,159 [Thread-103:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:28:02,088 [Thread-104:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:29:02,225 [Thread-105:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:29:57,600 [Thread-106:139896434644736] [basehttp:log_message] [INFO]- "GET /cfgManage/menuConfig HTTP/1.1" 200 1955
+2018-06-25 03:29:58,430 [Thread-107:139896434644736] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /commMenuInitQry
+Traceback (most recent call last):
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/dbInsight/dbInsight/dbInsight/dashboardViews.py", line 134, in commMenuInitQry
+    menuDict = menuList[0]
+IndexError: list index out of range
+2018-06-25 03:29:58,471 [Thread-107:139896434644736] [basehttp:log_message] [ERROR]- "GET /commMenuInitQry?urlQryType=RACTopology HTTP/1.1" 500 17006
+2018-06-25 03:30:00,029 [Thread-108:139896434644736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=storageTopology HTTP/1.1" 200 495
+2018-06-25 03:30:00,096 [Thread-109:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=storageTopology&urlQryAction=storageTopology HTTP/1.1" 200 4344
+2018-06-25 03:30:02,496 [Thread-110:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:31:02,957 [Thread-111:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:32:01,910 [Thread-112:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:33:02,934 [Thread-113:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:34:01,856 [Thread-114:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:35:02,793 [Thread-115:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:36:02,744 [Thread-116:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:37:02,684 [Thread-117:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:38:02,726 [Thread-118:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:39:02,723 [Thread-119:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:40:02,864 [Thread-120:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:41:02,790 [Thread-121:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:42:02,790 [Thread-122:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:43:02,724 [Thread-123:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:44:02,705 [Thread-124:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:45:02,884 [Thread-125:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:46:02,836 [Thread-126:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:47:03,045 [Thread-127:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:48:02,074 [Thread-128:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:49:02,129 [Thread-129:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:50:02,279 [Thread-130:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:51:02,209 [Thread-131:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:52:02,187 [Thread-132:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:53:02,114 [Thread-133:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:54:02,050 [Thread-134:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:55:01,981 [Thread-135:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:56:01,902 [Thread-136:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:57:03,610 [Thread-137:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:58:03,005 [Thread-138:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 03:59:02,470 [Thread-139:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:00:03,033 [Thread-140:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:01:01,996 [Thread-141:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:02:02,106 [Thread-142:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:03:02,619 [Thread-143:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:04:03,150 [Thread-144:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:05:02,542 [Thread-145:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:06:03,008 [Thread-146:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:07:02,476 [Thread-147:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:08:02,884 [Thread-148:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:09:03,378 [Thread-149:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:10:03,185 [Thread-150:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:11:03,008 [Thread-151:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:12:02,625 [Thread-152:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:13:03,539 [Thread-153:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:14:03,207 [Thread-154:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:15:02,476 [Thread-155:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:16:02,757 [Thread-156:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:17:03,052 [Thread-157:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:18:02,310 [Thread-158:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:19:02,578 [Thread-159:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:20:03,078 [Thread-160:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:21:02,405 [Thread-161:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:22:02,658 [Thread-162:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:23:02,933 [Thread-163:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:24:01,961 [Thread-164:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:25:01,976 [Thread-165:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:26:01,960 [Thread-166:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:27:01,937 [Thread-167:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:28:01,933 [Thread-168:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:29:01,913 [Thread-169:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:30:03,141 [Thread-170:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:31:02,146 [Thread-171:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:32:02,143 [Thread-172:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:33:02,168 [Thread-173:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:34:02,164 [Thread-174:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:35:02,119 [Thread-175:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:36:02,104 [Thread-176:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:37:02,084 [Thread-177:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:38:02,059 [Thread-178:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:39:02,015 [Thread-179:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:40:02,270 [Thread-180:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:41:02,283 [Thread-181:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:42:02,309 [Thread-182:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:43:02,331 [Thread-183:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:44:02,339 [Thread-184:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:45:02,347 [Thread-185:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:46:02,398 [Thread-186:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:47:02,439 [Thread-187:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:48:02,429 [Thread-188:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:49:02,610 [Thread-189:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:50:02,766 [Thread-190:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:51:02,761 [Thread-191:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:52:02,787 [Thread-192:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:53:02,755 [Thread-193:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:54:02,746 [Thread-194:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:55:02,683 [Thread-195:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:56:02,638 [Thread-196:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:56:39,156 [Thread-197:139896434644736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=tableSpaceQuery HTTP/1.1" 200 1267
+2018-06-25 04:56:39,244 [Thread-198:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=tableSpaceChart HTTP/1.1" 200 4397
+2018-06-25 04:56:39,307 [Thread-200:139896423892736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=dataFileQuery HTTP/1.1" 200 9319
+2018-06-25 04:56:39,695 [Thread-199:139895943198464] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=tableSpaceQuery HTTP/1.1" 200 5414
+2018-06-25 04:57:02,635 [Thread-201:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:58:02,601 [Thread-202:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:58:26,863 [Thread-203:139895943198464] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=redoQuery HTTP/1.1" 200 1237
+2018-06-25 04:58:26,978 [Thread-206:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoLogQuery HTTP/1.1" 200 3501
+2018-06-25 04:58:26,987 [Thread-205:139896423892736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoFileQuery HTTP/1.1" 200 2193
+2018-06-25 04:58:27,045 [Thread-204:139895943198464] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoSwitchQuery HTTP/1.1" 200 3063
+2018-06-25 04:58:29,533 [Thread-207:139895943198464] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=controlQuery HTTP/1.1" 200 887
+2018-06-25 04:58:29,603 [Thread-209:139896423892736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=controlQuery&urlQryAction=controlFileInfoQuery HTTP/1.1" 200 19576
+2018-06-25 04:58:29,605 [Thread-208:139895943198464] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=controlQuery&urlQryAction=controlQuery HTTP/1.1" 200 1657
+2018-06-25 04:58:45,322 [Thread-210:139896423892736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=dbWaitQuery HTTP/1.1" 200 475
+2018-06-25 04:58:45,358 [Thread-211:139896423892736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=dbWaitQuery&urlQryAction=dbWaitQuery HTTP/1.1" 200 2053
+2018-06-25 04:58:46,904 [Thread-212:139896423892736] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /commMenuInitQry
+Traceback (most recent call last):
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/dbInsight/dbInsight/dbInsight/dashboardViews.py", line 134, in commMenuInitQry
+    menuDict = menuList[0]
+IndexError: list index out of range
+2018-06-25 04:58:46,945 [Thread-212:139896423892736] [basehttp:log_message] [ERROR]- "GET /commMenuInitQry?urlQryType=dbTimeQuery HTTP/1.1" 500 17006
+2018-06-25 04:58:49,559 [Thread-213:139896423892736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=storageTopology HTTP/1.1" 200 495
+2018-06-25 04:58:49,608 [Thread-214:139896423892736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=storageTopology&urlQryAction=storageTopology HTTP/1.1" 200 4344
+2018-06-25 04:58:51,203 [Thread-215:139896423892736] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /commMenuInitQry
+Traceback (most recent call last):
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/dbInsight/dbInsight/dbInsight/dashboardViews.py", line 134, in commMenuInitQry
+    menuDict = menuList[0]
+IndexError: list index out of range
+2018-06-25 04:58:51,238 [Thread-215:139896423892736] [basehttp:log_message] [ERROR]- "GET /commMenuInitQry?urlQryType=RACTopology HTTP/1.1" 500 17006
+2018-06-25 04:58:52,303 [Thread-216:139896423892736] [basehttp:log_message] [INFO]- "GET /cfgManage/menuConfig HTTP/1.1" 200 1955
+2018-06-25 04:58:57,080 [Thread-217:139896423892736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=tableSpaceQuery HTTP/1.1" 200 1267
+2018-06-25 04:58:57,157 [Thread-218:139896423892736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=tableSpaceChart HTTP/1.1" 200 4397
+2018-06-25 04:58:57,187 [Thread-220:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=dataFileQuery HTTP/1.1" 200 9319
+2018-06-25 04:58:57,611 [Thread-219:139895943198464] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=tableSpaceQuery HTTP/1.1" 200 5414
+2018-06-25 04:59:02,670 [Thread-221:139895943198464] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 04:59:35,244 [Thread-222:139895943198464] [base:get_response] [WARNING]- Not Found: /sqlAudit/qryUser/
+2018-06-25 04:59:35,246 [Thread-222:139895943198464] [basehttp:log_message] [WARNING]- "GET /sqlAudit/qryUser/?userID=7 HTTP/1.1" 404 4074
+2018-06-25 05:00:02,812 [Thread-229:139895922218752] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:00:03,162 [Thread-230:139895932708608] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=tableSpaceQuery HTTP/1.1" 200 1267
+2018-06-25 05:00:03,243 [Thread-231:139895932708608] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=tableSpaceChart HTTP/1.1" 200 4397
+2018-06-25 05:00:03,286 [Thread-233:139895943198464] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=dataFileQuery HTTP/1.1" 200 9319
+2018-06-25 05:00:03,702 [Thread-232:139896290887424] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=tableSpaceQuery HTTP/1.1" 200 5414
+2018-06-25 05:00:09,200 [Thread-234:139896290887424] [base:get_response] [WARNING]- Not Found: /sqlAudit/qryUser/
+2018-06-25 05:00:09,201 [Thread-234:139896290887424] [basehttp:log_message] [WARNING]- "GET /sqlAudit/qryUser/?userID=2 HTTP/1.1" 404 4074
+2018-06-25 05:01:03,157 [Thread-241:139895922218752] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:02:02,143 [Thread-242:139896290887424] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:02:36,978 [Thread-243:139896290887424] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=tableSpaceQuery HTTP/1.1" 200 1267
+2018-06-25 05:02:37,049 [Thread-244:139896290887424] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=tableSpaceChart HTTP/1.1" 200 4397
+2018-06-25 05:02:37,088 [Thread-246:139896301377280] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=dataFileQuery HTTP/1.1" 200 9319
+2018-06-25 05:02:37,392 [Thread-245:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=tableSpaceQuery&urlQryAction=tableSpaceQuery HTTP/1.1" 200 5415
+2018-06-25 05:02:37,785 [Thread-247:139896434644736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=redoQuery HTTP/1.1" 200 1237
+2018-06-25 05:02:37,897 [Thread-249:139896301377280] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoFileQuery HTTP/1.1" 200 2193
+2018-06-25 05:02:37,938 [Thread-250:139896290887424] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoLogQuery HTTP/1.1" 200 3501
+2018-06-25 05:02:38,010 [Thread-248:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoSwitchQuery HTTP/1.1" 200 3063
+2018-06-25 05:02:39,179 [Thread-251:139896434644736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=redoQuery HTTP/1.1" 200 1237
+2018-06-25 05:02:39,289 [Thread-254:139896290887424] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoLogQuery HTTP/1.1" 200 3501
+2018-06-25 05:02:39,296 [Thread-253:139896301377280] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoFileQuery HTTP/1.1" 200 2193
+2018-06-25 05:02:39,364 [Thread-252:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=redoQuery&urlQryAction=redoSwitchQuery HTTP/1.1" 200 3063
+2018-06-25 05:02:42,221 [Thread-255:139896434644736] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=controlQuery HTTP/1.1" 200 887
+2018-06-25 05:02:42,283 [Thread-256:139896434644736] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=controlQuery&urlQryAction=controlQuery HTTP/1.1" 200 1657
+2018-06-25 05:02:42,319 [Thread-257:139896301377280] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=controlQuery&urlQryAction=controlFileInfoQuery HTTP/1.1" 200 19576
+2018-06-25 05:02:55,953 [Thread-258:139896301377280] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=dbWaitQuery HTTP/1.1" 200 475
+2018-06-25 05:02:55,989 [Thread-259:139896301377280] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=dbWaitQuery&urlQryAction=dbWaitQuery HTTP/1.1" 200 2053
+2018-06-25 05:02:57,430 [Thread-260:139896301377280] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /commMenuInitQry
+Traceback (most recent call last):
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/dbInsight/dbInsight/dbInsight/dashboardViews.py", line 134, in commMenuInitQry
+    menuDict = menuList[0]
+IndexError: list index out of range
+2018-06-25 05:02:57,462 [Thread-260:139896301377280] [basehttp:log_message] [ERROR]- "GET /commMenuInitQry?urlQryType=dbTimeQuery HTTP/1.1" 500 17006
+2018-06-25 05:02:58,679 [Thread-261:139896301377280] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=dbWaitQuery HTTP/1.1" 200 475
+2018-06-25 05:02:58,717 [Thread-262:139896301377280] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=dbWaitQuery&urlQryAction=dbWaitQuery HTTP/1.1" 200 2053
+2018-06-25 05:03:02,498 [Thread-263:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:03:14,500 [Thread-264:139896301377280] [basehttp:log_message] [INFO]- "GET /commMenuInitQry?urlQryType=storageTopology HTTP/1.1" 200 495
+2018-06-25 05:03:14,549 [Thread-265:139896301377280] [basehttp:log_message] [INFO]- "GET /commURLSQLQuery?urlQryType=storageTopology&urlQryAction=storageTopology HTTP/1.1" 200 4344
+2018-06-25 05:04:02,465 [Thread-266:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:05:02,541 [Thread-267:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:06:02,497 [Thread-268:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:07:02,446 [Thread-269:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:08:02,444 [Thread-270:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:09:02,426 [Thread-271:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:10:02,557 [Thread-272:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:11:02,505 [Thread-273:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:12:02,453 [Thread-274:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:13:02,412 [Thread-275:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:14:02,362 [Thread-276:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:15:02,604 [Thread-277:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:16:02,563 [Thread-278:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:17:02,523 [Thread-279:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:18:02,507 [Thread-280:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:19:02,500 [Thread-281:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:20:02,636 [Thread-282:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:21:02,935 [Thread-283:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:22:01,895 [Thread-284:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:23:02,914 [Thread-285:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:24:02,894 [Thread-286:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:25:02,915 [Thread-287:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:26:02,910 [Thread-288:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:27:02,924 [Thread-289:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:28:02,874 [Thread-290:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:29:02,821 [Thread-291:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:30:02,989 [Thread-292:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:31:01,964 [Thread-293:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:32:01,935 [Thread-294:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:33:01,942 [Thread-295:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:34:01,909 [Thread-296:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:35:02,983 [Thread-297:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:36:01,986 [Thread-298:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:37:01,976 [Thread-299:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:38:01,934 [Thread-300:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:39:02,883 [Thread-301:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:40:03,081 [Thread-302:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:41:02,010 [Thread-303:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:42:01,971 [Thread-304:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:43:01,979 [Thread-305:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:44:01,937 [Thread-306:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:45:01,934 [Thread-307:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:46:01,934 [Thread-308:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:47:01,897 [Thread-309:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:48:02,842 [Thread-310:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:49:02,797 [Thread-311:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:50:02,991 [Thread-312:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:51:01,970 [Thread-313:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:52:01,931 [Thread-314:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:53:01,954 [Thread-315:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:54:01,918 [Thread-316:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:55:01,922 [Thread-317:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:56:02,918 [Thread-318:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:57:02,945 [Thread-319:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:58:01,916 [Thread-320:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 05:59:02,891 [Thread-321:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:00:03,064 [Thread-322:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:01:02,047 [Thread-323:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:02:02,001 [Thread-324:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:03:01,974 [Thread-325:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:04:01,954 [Thread-326:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:05:01,989 [Thread-327:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:06:01,960 [Thread-328:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:07:01,985 [Thread-329:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:08:01,997 [Thread-330:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:09:02,011 [Thread-331:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:10:02,229 [Thread-332:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:11:02,744 [Thread-333:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:12:02,805 [Thread-334:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:13:02,883 [Thread-335:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:14:02,891 [Thread-336:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:15:02,933 [Thread-337:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:16:01,952 [Thread-338:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:17:01,926 [Thread-339:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:18:02,955 [Thread-340:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:19:01,955 [Thread-341:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:20:02,080 [Thread-342:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:21:02,052 [Thread-343:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:22:02,007 [Thread-344:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:23:01,993 [Thread-345:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:24:02,022 [Thread-346:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:25:02,023 [Thread-347:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:26:01,995 [Thread-348:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:27:01,992 [Thread-349:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:28:01,964 [Thread-350:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:29:01,960 [Thread-351:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:30:02,171 [Thread-352:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:31:02,158 [Thread-353:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:32:02,169 [Thread-354:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:33:02,158 [Thread-355:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:34:02,122 [Thread-356:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:35:02,267 [Thread-357:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:36:02,242 [Thread-358:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:37:02,976 [Thread-359:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:38:02,028 [Thread-360:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:39:02,158 [Thread-361:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:40:02,303 [Thread-362:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:41:02,467 [Thread-363:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:42:02,422 [Thread-364:139896301377280] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:42:37,184 [Thread-365:139896301377280] [basehttp:log_message] [INFO]- "GET /get HTTP/1.1" 301 0
+2018-06-25 06:42:37,349 [Thread-366:139896434644736] [basehttp:log_message] [INFO]- "GET /get/ HTTP/1.1" 200 18
+2018-06-25 06:43:02,419 [Thread-371:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:44:02,440 [Thread-372:139896434644736] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:45:02,414 [Thread-373:139896290887424] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:46:02,329 [Thread-374:139896290887424] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:47:02,677 [Thread-375:139896290887424] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:48:02,676 [Thread-376:139896290887424] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:49:02,714 [Thread-377:139896290887424] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:50:02,974 [Thread-378:139896290887424] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:51:02,893 [Thread-379:139896290887424] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2018 - 02:37:45
+Django version 1.11.4, using settings 'dbInsight.settings'
+Starting development server at http://sqlaudit:8000/
+Quit the server with CONTROL-C.
+index fav_color ->  blue
+mainPageInit fav_color ->  blue
+2018-06-25 06:52:02,251 [Thread-1:140584906684160] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2018 - 06:51:49
+Django version 1.11.4, using settings 'dbInsight.settings'
+Starting development server at http://sqlaudit:8000/
+Quit the server with CONTROL-C.
+2018-06-25 06:52:21,356 [Thread-1:139804690835200] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2726
+2018-06-25 06:52:23,074 [Thread-3:139804608034560] [basehttp:log_message] [INFO]- "GET /login?userName=admin&passWord=admin123 HTTP/1.1" 302 0
+2018-06-25 06:52:23,160 [Thread-4:139804597544704] [basehttp:log_message] [INFO]- "GET /sysInit HTTP/1.1" 200 18148
+2018-06-25 06:52:23,537 [Thread-5:139804587054848] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /mainPageInit
+Traceback (most recent call last):
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/dbInsight/dbInsight/dbInsight/dashboardViews.py", line 120, in mainPageInit
+    return render('mainPage.html', returnDict)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/dbInsight/python3venv/lib/python3.6/site-packages/django/template/loaders/filesystem.py", line 28, in get_contents
+    with io.open(origin.name, encoding=self.engine.file_charset) as fp:
+OSError: [Errno 36] File name too long: '/dbInsight/python3venv/lib/python3.6/site-packages/django/contrib/admin/templates/{\'returnMessage\': \'\', \'queryResult\': [{\'实例ID\': \'实例ID\', \'实例名称\': \'实例名称\', \'主机名称\': \'主机名称\', \'数据库版本\': \'数据库版本\', \'启动时间\': \'启动时间\', \'实例状态\': \'实例状态\', \'启动时长\': \'启动时长\'}, {\'实例ID\': 1, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-06-26 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}, {\'实例ID\': 2, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-06-27 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}, {\'实例ID\': 3, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-06-28 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}, {\'实例ID\': 4, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-06-29 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}, {\'实例ID\': 5, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-06-30 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}, {\'实例ID\': 6, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-07-01 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}, {\'实例ID\': 7, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-07-02 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}, {\'实例ID\': 8, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-07-03 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}, {\'实例ID\': 9, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-07-04 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}, {\'实例ID\': 10, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-07-05 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}, {\'实例ID\': 11, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-07-06 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}, {\'实例ID\': 12, \'实例名称\': \'sqlaudit\', \'主机名称\': \'sqlaudit\', \'数据库版本\': \'11.2.0.4.0\', \'启动时间\': \'2018-07-07 02:35:30\', \'实例状态\': \'OPEN\', \'启动时长\': Decimal(\'0.2\')}], \'dbLoadChart\': "\\n    [\\n    {value: 8, name: \'PUBDB\'},\\n    {value: 18, name: \'YYDBA\'},\\n    {value: 28, name: \'YYDBB\'},\\n    {value: 18, name: \'CBDB\'},\\n    {value: 18, name: \'ZGDBA\'},\\n    {value: 10, name: \'ZGDBB\'},\\n    ]\\n    "}'
+2018-06-25 06:52:23,680 [Thread-5:139804587054848] [basehttp:log_message] [ERROR]- "GET /mainPageInit?urlQryType=instanceQry HTTP/1.1" 500 25157
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2018 - 06:52:15
+Django version 1.11.4, using settings 'dbInsight.settings'
+Starting development server at http://sqlaudit:8000/
+Quit the server with CONTROL-C.
+index fav_color ->  blue
+mainPageInit fav_color ->  blue
+2018-06-25 06:52:44,775 [Thread-1:139857825363712] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2726
+2018-06-25 06:52:46,316 [Thread-3:139857814873856] [basehttp:log_message] [INFO]- "GET /login?userName=admin&passWord=admin123 HTTP/1.1" 302 0
+2018-06-25 06:52:46,401 [Thread-4:139857804384000] [basehttp:log_message] [INFO]- "GET /sysInit HTTP/1.1" 200 18148
+2018-06-25 06:52:46,722 [Thread-5:139857793894144] [basehttp:log_message] [INFO]- "GET /mainPageInit?urlQryType=instanceQry HTTP/1.1" 200 16943
+2018-06-25 06:53:02,341 [Thread-8:139857793894144] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:54:02,509 [Thread-9:139857793894144] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:55:02,519 [Thread-10:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:56:02,550 [Thread-11:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:57:03,157 [Thread-12:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:58:02,145 [Thread-13:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 06:59:02,126 [Thread-14:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:00:02,257 [Thread-15:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:01:02,273 [Thread-16:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:02:02,233 [Thread-17:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:03:02,169 [Thread-18:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:04:02,140 [Thread-19:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:05:02,146 [Thread-20:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:06:02,135 [Thread-21:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:07:02,113 [Thread-22:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:08:02,031 [Thread-23:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:09:02,289 [Thread-24:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:10:02,420 [Thread-25:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:11:02,435 [Thread-26:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:12:03,369 [Thread-27:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:13:06,214 [Thread-28:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:14:02,404 [Thread-29:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:15:02,442 [Thread-30:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:16:02,498 [Thread-31:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:17:02,519 [Thread-32:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:18:02,616 [Thread-33:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:19:02,614 [Thread-34:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:20:03,502 [Thread-35:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:21:02,709 [Thread-36:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:22:02,807 [Thread-37:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:23:02,927 [Thread-38:139857772914432] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2018 - 06:52:40
+Django version 1.11.4, using settings 'dbInsight.settings'
+Starting development server at http://sqlaudit:8000/
+Quit the server with CONTROL-C.
+index fav_color ->  blue
+mainPageInit fav_color ->  blue
+2018-06-25 07:24:02,152 [Thread-1:139915282298624] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:24:07,341 [Thread-3:139915282298624] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2726
+2018-06-25 07:24:09,158 [Thread-4:139915203442432] [basehttp:log_message] [INFO]- "GET /login?userName=admin&passWord=admin123 HTTP/1.1" 302 0
+2018-06-25 07:24:09,292 [Thread-5:139915192952576] [basehttp:log_message] [INFO]- "GET /sysInit HTTP/1.1" 200 18148
+2018-06-25 07:24:09,619 [Thread-6:139915182462720] [basehttp:log_message] [INFO]- "GET /mainPageInit?urlQryType=instanceQry HTTP/1.1" 200 21127
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2018 - 07:24:01
+Django version 1.11.4, using settings 'dbInsight.settings'
+Starting development server at http://sqlaudit:8000/
+Quit the server with CONTROL-C.
+index fav_color ->  blue
+mainPageInit fav_color ->  blue
+2018-06-25 07:25:02,714 [Thread-1:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:26:02,717 [Thread-3:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:27:02,774 [Thread-4:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:28:02,800 [Thread-5:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:29:02,884 [Thread-6:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:30:03,402 [Thread-7:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:31:02,455 [Thread-8:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:32:02,479 [Thread-9:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:33:02,472 [Thread-10:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:34:02,486 [Thread-11:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:35:03,242 [Thread-12:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:36:02,313 [Thread-13:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:37:02,391 [Thread-14:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:38:02,554 [Thread-15:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:39:02,763 [Thread-16:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:40:05,515 [Thread-17:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:41:02,897 [Thread-18:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:42:03,130 [Thread-19:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:43:02,360 [Thread-20:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:44:02,500 [Thread-21:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:45:02,503 [Thread-22:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:46:02,557 [Thread-23:140499140302592] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2018 - 07:24:23
+Django version 1.11.4, using settings 'dbInsight.settings'
+Starting development server at http://sqlaudit:8000/
+Quit the server with CONTROL-C.
+2018-06-25 07:47:02,599 [Thread-1:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:48:02,667 [Thread-3:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:49:02,687 [Thread-4:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:50:02,849 [Thread-5:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:51:03,717 [Thread-6:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:52:02,831 [Thread-7:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:53:03,006 [Thread-8:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:54:02,012 [Thread-9:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:55:02,125 [Thread-10:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:56:02,171 [Thread-11:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:57:02,941 [Thread-12:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:58:02,909 [Thread-13:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 07:59:02,909 [Thread-14:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:00:03,128 [Thread-15:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:01:02,252 [Thread-16:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:02:02,271 [Thread-17:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:03:02,306 [Thread-18:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:04:02,324 [Thread-19:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:05:02,308 [Thread-20:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:06:02,286 [Thread-21:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:07:02,351 [Thread-22:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:08:02,394 [Thread-23:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:09:02,867 [Thread-24:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:10:03,423 [Thread-25:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:11:04,150 [Thread-26:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:12:02,167 [Thread-27:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:13:02,218 [Thread-28:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:14:02,277 [Thread-29:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:15:02,567 [Thread-30:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:16:02,682 [Thread-31:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:17:02,777 [Thread-32:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:18:02,763 [Thread-33:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:19:02,758 [Thread-34:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:20:03,003 [Thread-35:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:21:02,041 [Thread-36:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:22:02,176 [Thread-37:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:23:02,172 [Thread-38:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:24:02,191 [Thread-39:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:25:02,217 [Thread-40:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:26:02,194 [Thread-41:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:27:02,182 [Thread-42:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:28:02,153 [Thread-43:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:29:03,036 [Thread-44:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:30:02,570 [Thread-45:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:31:02,602 [Thread-46:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:32:02,634 [Thread-47:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:33:02,685 [Thread-48:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:34:02,703 [Thread-49:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:35:02,730 [Thread-50:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:36:02,741 [Thread-51:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:37:02,745 [Thread-52:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:38:02,810 [Thread-53:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:39:04,465 [Thread-54:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:40:02,716 [Thread-55:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:41:02,742 [Thread-56:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:42:02,738 [Thread-57:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:43:03,126 [Thread-58:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:44:02,287 [Thread-59:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:45:02,737 [Thread-60:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:46:03,077 [Thread-61:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:47:04,598 [Thread-62:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:48:02,886 [Thread-63:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:49:03,814 [Thread-64:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:50:04,335 [Thread-65:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:51:02,768 [Thread-66:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:52:03,088 [Thread-67:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:53:02,184 [Thread-68:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:54:02,395 [Thread-69:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:55:02,485 [Thread-70:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:56:02,632 [Thread-71:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:57:02,660 [Thread-72:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:58:02,720 [Thread-73:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 08:59:02,770 [Thread-74:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:00:02,933 [Thread-75:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:01:01,967 [Thread-76:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:02:01,965 [Thread-77:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:03:02,009 [Thread-78:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:04:02,036 [Thread-79:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:05:02,155 [Thread-80:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:06:02,158 [Thread-81:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:07:02,219 [Thread-82:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:08:02,349 [Thread-83:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:09:02,357 [Thread-84:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:10:02,678 [Thread-85:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:11:02,698 [Thread-86:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:12:02,708 [Thread-87:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:13:02,733 [Thread-88:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:14:02,777 [Thread-89:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:15:03,428 [Thread-90:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:16:02,466 [Thread-91:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:17:02,737 [Thread-92:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:18:02,881 [Thread-93:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:19:02,954 [Thread-94:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:20:02,279 [Thread-95:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:21:02,347 [Thread-96:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:22:02,868 [Thread-97:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:23:03,019 [Thread-98:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:24:02,070 [Thread-99:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:25:02,081 [Thread-100:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:26:02,137 [Thread-101:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:27:02,230 [Thread-102:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:28:02,230 [Thread-103:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:29:02,291 [Thread-104:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:30:02,442 [Thread-105:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:31:02,426 [Thread-106:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:32:02,448 [Thread-107:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:33:02,470 [Thread-108:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:34:02,496 [Thread-109:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:35:02,520 [Thread-110:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:36:02,529 [Thread-111:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:37:02,710 [Thread-112:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:38:02,756 [Thread-113:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:39:02,759 [Thread-114:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:40:02,934 [Thread-115:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:41:01,934 [Thread-116:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:42:01,950 [Thread-117:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:43:01,977 [Thread-118:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:44:01,986 [Thread-119:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:45:02,005 [Thread-120:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:46:02,049 [Thread-121:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:47:02,070 [Thread-122:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:48:02,068 [Thread-123:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:49:02,078 [Thread-124:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:50:02,286 [Thread-125:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:51:02,311 [Thread-126:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:52:02,350 [Thread-127:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:53:02,352 [Thread-128:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:54:02,351 [Thread-129:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:55:02,357 [Thread-130:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:56:02,425 [Thread-131:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:57:02,495 [Thread-132:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:58:02,570 [Thread-133:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 09:59:02,604 [Thread-134:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:00:02,775 [Thread-135:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:01:02,769 [Thread-136:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:02:02,743 [Thread-137:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:03:02,754 [Thread-138:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:04:02,740 [Thread-139:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:05:02,722 [Thread-140:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:06:02,748 [Thread-141:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:07:02,752 [Thread-142:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:08:02,728 [Thread-143:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:09:02,709 [Thread-144:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:10:02,865 [Thread-145:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:11:02,878 [Thread-146:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:12:02,892 [Thread-147:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:13:02,909 [Thread-148:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:14:02,953 [Thread-149:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:15:02,038 [Thread-150:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:16:02,112 [Thread-151:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:17:02,130 [Thread-152:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:18:02,145 [Thread-153:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:19:02,158 [Thread-154:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:20:02,338 [Thread-155:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:21:02,323 [Thread-156:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:22:02,339 [Thread-157:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:23:02,361 [Thread-158:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:24:02,418 [Thread-159:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:25:02,442 [Thread-160:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:26:02,474 [Thread-161:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:27:02,511 [Thread-162:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:28:02,565 [Thread-163:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:29:02,585 [Thread-164:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:30:02,826 [Thread-165:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:31:02,902 [Thread-166:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:32:02,859 [Thread-167:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:33:02,840 [Thread-168:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:34:02,853 [Thread-169:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:35:02,833 [Thread-170:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:36:02,845 [Thread-171:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:37:02,816 [Thread-172:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:38:02,774 [Thread-173:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:39:02,810 [Thread-174:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:40:03,051 [Thread-175:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:41:02,061 [Thread-176:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:42:02,078 [Thread-177:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:43:02,119 [Thread-178:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:44:02,121 [Thread-179:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:45:02,153 [Thread-180:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:46:02,162 [Thread-181:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:47:02,209 [Thread-182:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:48:02,243 [Thread-183:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:49:02,316 [Thread-184:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:50:02,519 [Thread-185:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:51:02,568 [Thread-186:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:52:02,642 [Thread-187:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:53:02,699 [Thread-188:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:54:02,839 [Thread-189:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:55:02,840 [Thread-190:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:56:02,838 [Thread-191:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:57:02,846 [Thread-192:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:58:02,875 [Thread-193:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 10:59:02,859 [Thread-194:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:00:03,047 [Thread-195:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:01:02,113 [Thread-196:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:02:02,143 [Thread-197:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:03:02,154 [Thread-198:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:04:02,153 [Thread-199:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:05:02,181 [Thread-200:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:06:02,215 [Thread-201:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:07:02,214 [Thread-202:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:08:02,297 [Thread-203:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:09:02,381 [Thread-204:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:10:02,836 [Thread-205:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:11:02,946 [Thread-206:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:12:01,953 [Thread-207:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:13:01,943 [Thread-208:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:14:01,940 [Thread-209:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:15:01,949 [Thread-210:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:16:02,063 [Thread-211:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:17:02,069 [Thread-212:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:18:02,200 [Thread-213:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:19:02,265 [Thread-214:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:20:02,447 [Thread-215:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:21:02,497 [Thread-216:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:22:02,629 [Thread-217:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:23:02,770 [Thread-218:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:24:02,832 [Thread-219:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:25:02,877 [Thread-220:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:26:02,881 [Thread-221:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:27:02,972 [Thread-222:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:28:02,070 [Thread-223:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:29:02,245 [Thread-224:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:30:02,490 [Thread-225:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:31:02,536 [Thread-226:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:32:02,544 [Thread-227:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:33:02,628 [Thread-228:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:34:02,649 [Thread-229:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:35:02,654 [Thread-230:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:36:02,724 [Thread-231:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:37:03,182 [Thread-232:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:38:02,702 [Thread-233:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:39:02,852 [Thread-234:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:40:03,178 [Thread-235:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:41:02,335 [Thread-236:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:42:02,470 [Thread-237:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:43:02,612 [Thread-238:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:44:03,004 [Thread-239:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:45:02,201 [Thread-240:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:46:02,326 [Thread-241:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:47:02,409 [Thread-242:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:48:03,081 [Thread-243:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:49:02,394 [Thread-244:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:50:02,692 [Thread-245:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:51:02,993 [Thread-246:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:52:02,297 [Thread-247:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:53:02,338 [Thread-248:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:54:02,440 [Thread-249:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:55:02,462 [Thread-250:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:56:02,489 [Thread-251:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:57:02,492 [Thread-252:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:58:02,584 [Thread-253:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 11:59:02,598 [Thread-254:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:00:02,778 [Thread-255:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:01:02,914 [Thread-256:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:02:02,017 [Thread-257:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:03:02,056 [Thread-258:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:04:02,110 [Thread-259:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:05:02,117 [Thread-260:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:06:02,114 [Thread-261:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:07:02,194 [Thread-262:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:08:02,213 [Thread-263:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:09:02,224 [Thread-264:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:10:02,484 [Thread-265:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:11:02,519 [Thread-266:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:12:02,505 [Thread-267:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:13:02,547 [Thread-268:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:14:02,601 [Thread-269:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:15:02,662 [Thread-270:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:16:02,728 [Thread-271:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:17:02,784 [Thread-272:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:18:02,822 [Thread-273:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:19:02,869 [Thread-274:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:20:03,142 [Thread-275:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:21:02,215 [Thread-276:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:22:02,263 [Thread-277:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:23:02,311 [Thread-278:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:24:02,370 [Thread-279:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:25:02,497 [Thread-280:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:26:02,559 [Thread-281:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:27:02,672 [Thread-282:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:28:02,728 [Thread-283:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:29:02,804 [Thread-284:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:30:03,002 [Thread-285:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:31:02,023 [Thread-286:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:32:02,059 [Thread-287:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:33:02,116 [Thread-288:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:34:02,177 [Thread-289:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:35:02,247 [Thread-290:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:36:02,298 [Thread-291:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:37:02,382 [Thread-292:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:38:02,456 [Thread-293:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:39:02,506 [Thread-294:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:40:02,721 [Thread-295:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:41:02,853 [Thread-296:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:42:02,873 [Thread-297:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:43:03,014 [Thread-298:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:44:02,139 [Thread-299:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:45:02,168 [Thread-300:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:46:02,191 [Thread-301:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:47:02,240 [Thread-302:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:48:02,318 [Thread-303:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:49:02,407 [Thread-304:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:50:02,643 [Thread-305:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:51:02,700 [Thread-306:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:52:02,785 [Thread-307:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:53:02,836 [Thread-308:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:54:02,898 [Thread-309:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:55:01,939 [Thread-310:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:56:02,112 [Thread-311:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:57:02,139 [Thread-312:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:58:02,484 [Thread-313:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 12:59:02,739 [Thread-314:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:00:03,758 [Thread-315:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:01:02,799 [Thread-316:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:02:02,847 [Thread-317:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:03:02,904 [Thread-318:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:04:02,932 [Thread-319:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:05:01,950 [Thread-320:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:06:01,962 [Thread-321:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:07:02,139 [Thread-322:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:08:02,172 [Thread-323:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:09:02,234 [Thread-324:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:10:02,453 [Thread-325:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:11:02,487 [Thread-326:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:12:02,558 [Thread-327:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:13:02,608 [Thread-328:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:14:02,659 [Thread-329:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:15:02,701 [Thread-330:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:16:02,789 [Thread-331:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:17:02,859 [Thread-332:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:18:02,903 [Thread-333:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:19:03,038 [Thread-334:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:20:02,250 [Thread-335:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:21:02,290 [Thread-336:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:22:02,389 [Thread-337:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:23:02,447 [Thread-338:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:24:02,516 [Thread-339:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:25:02,559 [Thread-340:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:26:02,619 [Thread-341:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:27:02,668 [Thread-342:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:28:02,743 [Thread-343:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:29:02,806 [Thread-344:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:30:03,019 [Thread-345:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:31:02,092 [Thread-346:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:32:02,165 [Thread-347:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:33:02,232 [Thread-348:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:34:02,279 [Thread-349:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:35:02,364 [Thread-350:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:36:02,412 [Thread-351:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:37:02,503 [Thread-352:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:38:02,629 [Thread-353:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:39:02,708 [Thread-354:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:40:03,067 [Thread-355:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:41:02,181 [Thread-356:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:42:02,295 [Thread-357:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:43:02,357 [Thread-358:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:44:02,447 [Thread-359:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:45:02,563 [Thread-360:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:46:02,626 [Thread-361:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:47:02,720 [Thread-362:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:48:02,863 [Thread-363:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:49:02,991 [Thread-364:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:50:02,272 [Thread-365:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:51:02,319 [Thread-366:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:52:02,406 [Thread-367:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:53:02,509 [Thread-368:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:54:02,591 [Thread-369:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:55:02,687 [Thread-370:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:56:02,715 [Thread-371:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:57:02,857 [Thread-372:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:58:02,960 [Thread-373:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 13:59:02,027 [Thread-374:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:00:02,289 [Thread-375:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:01:02,387 [Thread-376:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:02:02,495 [Thread-377:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:03:02,557 [Thread-378:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:04:02,602 [Thread-379:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:05:02,666 [Thread-380:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:06:02,757 [Thread-381:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:07:02,782 [Thread-382:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:08:02,813 [Thread-383:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:09:02,853 [Thread-384:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:10:03,067 [Thread-385:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:11:02,098 [Thread-386:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:12:02,111 [Thread-387:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:13:02,165 [Thread-388:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:14:02,301 [Thread-389:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:15:02,384 [Thread-390:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:16:02,455 [Thread-391:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:17:02,561 [Thread-392:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:18:02,637 [Thread-393:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:19:02,690 [Thread-394:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:20:02,957 [Thread-395:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:21:02,014 [Thread-396:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:22:02,098 [Thread-397:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:23:02,377 [Thread-398:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:24:02,431 [Thread-399:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:25:02,571 [Thread-400:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:26:02,636 [Thread-401:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:27:02,720 [Thread-402:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:28:02,845 [Thread-403:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:29:02,984 [Thread-404:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:30:02,319 [Thread-405:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:31:02,364 [Thread-406:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:32:02,543 [Thread-407:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:33:02,630 [Thread-408:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:34:02,699 [Thread-409:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:35:02,778 [Thread-410:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:36:02,893 [Thread-411:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:37:03,020 [Thread-412:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:38:02,139 [Thread-413:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:39:02,221 [Thread-414:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:40:02,593 [Thread-415:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:41:02,623 [Thread-416:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:42:02,714 [Thread-417:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:43:02,771 [Thread-418:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:44:02,857 [Thread-419:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:45:03,191 [Thread-420:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:46:02,614 [Thread-421:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:47:02,981 [Thread-422:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:48:02,401 [Thread-423:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:49:02,896 [Thread-424:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:50:03,538 [Thread-425:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:51:03,669 [Thread-426:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:52:02,678 [Thread-427:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:53:02,687 [Thread-428:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:54:02,703 [Thread-429:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:55:02,706 [Thread-430:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:56:02,706 [Thread-431:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:57:02,759 [Thread-432:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:58:02,777 [Thread-433:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 14:59:02,780 [Thread-434:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:00:03,007 [Thread-435:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:01:02,011 [Thread-436:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:02:01,994 [Thread-437:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:03:02,001 [Thread-438:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:04:02,000 [Thread-439:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:05:02,036 [Thread-440:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:06:02,219 [Thread-441:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:07:02,380 [Thread-442:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:08:02,549 [Thread-443:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:09:02,753 [Thread-444:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:10:03,025 [Thread-445:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:11:02,028 [Thread-446:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:12:02,021 [Thread-447:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:13:02,031 [Thread-448:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:14:02,168 [Thread-449:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:15:02,328 [Thread-450:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:16:02,368 [Thread-451:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:17:02,443 [Thread-452:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:18:02,532 [Thread-453:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:19:02,578 [Thread-454:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:20:02,938 [Thread-455:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:21:02,133 [Thread-456:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:22:02,292 [Thread-457:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:23:02,450 [Thread-458:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:24:02,617 [Thread-459:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:25:02,785 [Thread-460:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:26:02,963 [Thread-461:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:27:01,955 [Thread-462:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:28:02,176 [Thread-463:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:29:02,447 [Thread-464:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:30:02,974 [Thread-465:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:31:02,176 [Thread-466:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:32:02,395 [Thread-467:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:33:02,647 [Thread-468:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:34:02,918 [Thread-469:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:35:03,024 [Thread-470:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:36:02,048 [Thread-471:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:37:02,268 [Thread-472:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:38:02,447 [Thread-473:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:39:02,624 [Thread-474:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:40:03,014 [Thread-475:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:41:02,215 [Thread-476:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:42:02,374 [Thread-477:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:43:02,635 [Thread-478:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:44:03,037 [Thread-479:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:45:02,442 [Thread-480:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:46:03,060 [Thread-481:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:47:02,151 [Thread-482:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:48:02,279 [Thread-483:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:49:02,319 [Thread-484:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:50:02,538 [Thread-485:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:51:02,665 [Thread-486:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:52:02,695 [Thread-487:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:53:02,787 [Thread-488:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:54:02,809 [Thread-489:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:55:02,871 [Thread-490:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:56:03,188 [Thread-491:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:57:02,270 [Thread-492:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:58:02,296 [Thread-493:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 15:59:02,368 [Thread-494:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:00:02,619 [Thread-495:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:01:02,899 [Thread-496:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:02:02,957 [Thread-497:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:03:01,969 [Thread-498:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:04:01,958 [Thread-499:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:05:01,964 [Thread-500:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:06:01,952 [Thread-501:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:07:02,024 [Thread-502:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:08:02,071 [Thread-503:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:09:02,092 [Thread-504:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:10:02,318 [Thread-505:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:11:02,363 [Thread-506:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:12:02,415 [Thread-507:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:13:02,472 [Thread-508:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:14:02,523 [Thread-509:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:15:02,579 [Thread-510:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:16:02,629 [Thread-511:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:17:02,732 [Thread-512:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:18:02,767 [Thread-513:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:19:02,787 [Thread-514:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:20:03,058 [Thread-515:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:21:02,115 [Thread-516:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:22:02,117 [Thread-517:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:23:02,176 [Thread-518:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:24:02,241 [Thread-519:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:25:02,312 [Thread-520:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:26:02,420 [Thread-521:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:27:02,499 [Thread-522:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:28:02,562 [Thread-523:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:29:02,592 [Thread-524:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:30:02,789 [Thread-525:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:31:02,847 [Thread-526:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:32:02,891 [Thread-527:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:33:02,964 [Thread-528:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:34:02,080 [Thread-529:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:35:02,121 [Thread-530:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:36:02,163 [Thread-531:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:37:02,210 [Thread-532:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:38:02,262 [Thread-533:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:39:02,391 [Thread-534:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:40:02,640 [Thread-535:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:41:02,727 [Thread-536:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:42:02,780 [Thread-537:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:43:02,877 [Thread-538:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:44:02,984 [Thread-539:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:45:02,071 [Thread-540:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:46:02,141 [Thread-541:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:47:02,211 [Thread-542:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:48:02,303 [Thread-543:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:49:02,443 [Thread-544:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:50:02,712 [Thread-545:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:51:02,812 [Thread-546:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:52:02,928 [Thread-547:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:53:01,982 [Thread-548:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:54:02,035 [Thread-549:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:55:02,121 [Thread-550:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:56:02,161 [Thread-551:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:57:02,209 [Thread-552:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:58:02,275 [Thread-553:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 16:59:02,356 [Thread-554:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:00:02,630 [Thread-555:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:01:02,719 [Thread-556:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:02:02,906 [Thread-557:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:03:02,987 [Thread-558:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:04:02,093 [Thread-559:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:05:02,268 [Thread-560:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:06:02,345 [Thread-561:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:07:02,409 [Thread-562:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:08:02,477 [Thread-563:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:09:02,561 [Thread-564:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:10:02,847 [Thread-565:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:11:02,979 [Thread-566:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:12:02,036 [Thread-567:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:13:02,059 [Thread-568:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:14:02,084 [Thread-569:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:15:02,104 [Thread-570:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:16:02,103 [Thread-571:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:17:02,128 [Thread-572:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:18:02,165 [Thread-573:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:19:02,247 [Thread-574:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:20:02,471 [Thread-575:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:21:02,598 [Thread-576:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:22:02,667 [Thread-577:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:23:02,758 [Thread-578:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:24:02,839 [Thread-579:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:25:02,903 [Thread-580:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:26:03,020 [Thread-581:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:27:02,071 [Thread-582:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:28:02,120 [Thread-583:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:29:02,161 [Thread-584:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:30:02,393 [Thread-585:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:31:02,454 [Thread-586:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:32:02,502 [Thread-587:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:33:02,582 [Thread-588:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:34:02,694 [Thread-589:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:35:02,748 [Thread-590:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:36:02,982 [Thread-591:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:37:02,037 [Thread-592:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:38:02,106 [Thread-593:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:39:02,163 [Thread-594:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:40:02,418 [Thread-595:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:41:02,480 [Thread-596:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:42:02,635 [Thread-597:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:43:02,767 [Thread-598:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:44:02,832 [Thread-599:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:45:02,900 [Thread-600:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:46:03,087 [Thread-601:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:47:02,153 [Thread-602:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:48:02,265 [Thread-603:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:49:02,326 [Thread-604:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:50:02,550 [Thread-605:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:51:02,622 [Thread-606:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:52:02,741 [Thread-607:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:53:02,835 [Thread-608:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:54:02,938 [Thread-609:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:55:02,042 [Thread-610:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:56:02,098 [Thread-611:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:57:02,112 [Thread-612:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:58:02,130 [Thread-613:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 17:59:02,167 [Thread-614:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:00:02,634 [Thread-615:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:01:02,719 [Thread-616:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:02:02,781 [Thread-617:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:03:02,866 [Thread-618:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:04:02,926 [Thread-619:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:05:02,124 [Thread-620:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:06:02,294 [Thread-621:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:07:02,459 [Thread-622:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:08:02,572 [Thread-623:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:09:02,697 [Thread-624:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:10:03,037 [Thread-625:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:11:02,250 [Thread-626:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:12:02,302 [Thread-627:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:13:02,372 [Thread-628:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:14:02,414 [Thread-629:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:15:02,480 [Thread-630:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:16:02,965 [Thread-631:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:17:02,005 [Thread-632:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:18:02,078 [Thread-633:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:19:02,170 [Thread-634:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:20:02,461 [Thread-635:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:21:02,566 [Thread-636:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:22:02,615 [Thread-637:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:23:02,658 [Thread-638:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:24:02,735 [Thread-639:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:25:02,800 [Thread-640:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:26:02,898 [Thread-641:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:27:02,011 [Thread-642:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:28:02,084 [Thread-643:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:29:02,157 [Thread-644:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:30:02,351 [Thread-645:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:31:02,400 [Thread-646:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:32:02,420 [Thread-647:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:33:02,437 [Thread-648:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:34:02,510 [Thread-649:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:35:02,547 [Thread-650:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:36:02,547 [Thread-651:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:37:02,583 [Thread-652:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:38:02,655 [Thread-653:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:39:02,647 [Thread-654:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:40:02,873 [Thread-655:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:41:02,257 [Thread-656:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:42:02,284 [Thread-657:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:43:02,334 [Thread-658:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:44:02,377 [Thread-659:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:45:02,437 [Thread-660:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:46:02,571 [Thread-661:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:47:02,703 [Thread-662:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:48:02,832 [Thread-663:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:49:02,914 [Thread-664:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:50:03,136 [Thread-665:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:51:02,142 [Thread-666:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:52:02,185 [Thread-667:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:53:02,221 [Thread-668:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:54:02,342 [Thread-669:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:55:02,410 [Thread-670:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:56:02,444 [Thread-671:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:57:02,576 [Thread-672:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:58:02,689 [Thread-673:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 18:59:02,748 [Thread-674:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:00:03,040 [Thread-675:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:01:02,142 [Thread-676:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:02:02,180 [Thread-677:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:03:02,202 [Thread-678:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:04:02,209 [Thread-679:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:05:02,300 [Thread-680:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:06:02,503 [Thread-681:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:07:02,523 [Thread-682:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:08:02,625 [Thread-683:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:09:02,831 [Thread-684:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:10:03,083 [Thread-685:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:11:02,227 [Thread-686:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:12:02,370 [Thread-687:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:13:02,482 [Thread-688:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:14:02,634 [Thread-689:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:15:02,692 [Thread-690:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:16:02,986 [Thread-691:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:17:02,065 [Thread-692:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:18:02,204 [Thread-693:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:19:02,274 [Thread-694:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:20:02,476 [Thread-695:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:21:02,550 [Thread-696:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:22:03,160 [Thread-697:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:23:02,171 [Thread-698:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:24:02,162 [Thread-699:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:25:02,212 [Thread-700:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:26:02,233 [Thread-701:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:27:02,253 [Thread-702:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:28:02,274 [Thread-703:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:29:02,318 [Thread-704:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:30:02,577 [Thread-705:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:31:02,624 [Thread-706:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:32:02,620 [Thread-707:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:33:02,639 [Thread-708:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:34:02,649 [Thread-709:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:35:02,654 [Thread-710:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:36:02,716 [Thread-711:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:37:02,732 [Thread-712:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:38:02,749 [Thread-713:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:39:02,772 [Thread-714:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:40:02,940 [Thread-715:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:41:01,980 [Thread-716:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:42:01,965 [Thread-717:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:43:02,027 [Thread-718:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:44:02,084 [Thread-719:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:45:02,099 [Thread-720:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:46:02,080 [Thread-721:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:47:02,174 [Thread-722:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:48:02,152 [Thread-723:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:49:02,268 [Thread-724:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:50:02,542 [Thread-725:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:51:02,963 [Thread-726:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:52:02,966 [Thread-727:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:53:02,262 [Thread-728:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:54:02,334 [Thread-729:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:55:02,363 [Thread-730:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:56:02,434 [Thread-731:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:57:02,439 [Thread-732:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:58:02,464 [Thread-733:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 19:59:02,560 [Thread-734:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:00:02,799 [Thread-735:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:01:03,034 [Thread-736:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:02:02,408 [Thread-737:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:03:02,544 [Thread-738:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:04:02,711 [Thread-739:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:05:02,763 [Thread-740:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:06:02,810 [Thread-741:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:07:03,474 [Thread-742:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:08:02,607 [Thread-743:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:09:02,692 [Thread-744:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:10:06,872 [Thread-745:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:11:02,895 [Thread-746:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:12:02,936 [Thread-747:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:13:01,946 [Thread-748:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:14:01,958 [Thread-749:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:15:02,088 [Thread-750:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:16:02,128 [Thread-751:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:17:02,178 [Thread-752:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:18:02,186 [Thread-753:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:19:02,171 [Thread-754:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:20:04,513 [Thread-755:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:21:02,538 [Thread-756:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:22:02,676 [Thread-757:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:23:03,068 [Thread-758:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:24:02,130 [Thread-759:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:25:02,264 [Thread-760:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:26:02,596 [Thread-761:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:27:02,819 [Thread-762:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:28:03,461 [Thread-763:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:29:02,619 [Thread-764:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:30:03,020 [Thread-765:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:31:02,200 [Thread-766:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:32:02,589 [Thread-767:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:33:02,800 [Thread-768:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:34:02,868 [Thread-769:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:35:02,905 [Thread-770:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:36:02,912 [Thread-771:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:37:02,922 [Thread-772:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:38:02,920 [Thread-773:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:39:02,974 [Thread-774:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:40:02,235 [Thread-775:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:41:02,995 [Thread-776:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:42:02,473 [Thread-777:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:43:02,733 [Thread-778:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:44:02,837 [Thread-779:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:45:03,418 [Thread-780:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:46:02,580 [Thread-781:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:47:02,790 [Thread-782:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:48:02,971 [Thread-783:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:49:02,105 [Thread-784:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:50:02,307 [Thread-785:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:51:02,347 [Thread-786:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:52:02,359 [Thread-787:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:53:02,376 [Thread-788:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:54:02,397 [Thread-789:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:55:02,499 [Thread-790:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:56:02,501 [Thread-791:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:57:02,515 [Thread-792:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:58:02,544 [Thread-793:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 20:59:03,016 [Thread-794:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:00:03,246 [Thread-795:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:01:02,735 [Thread-796:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:02:03,346 [Thread-797:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:03:02,822 [Thread-798:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:04:03,423 [Thread-799:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:05:02,925 [Thread-800:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:06:02,514 [Thread-801:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:07:03,132 [Thread-802:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:08:03,106 [Thread-803:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:09:03,067 [Thread-804:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:10:03,253 [Thread-805:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:11:02,894 [Thread-806:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:12:02,026 [Thread-807:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:13:02,173 [Thread-808:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:14:02,211 [Thread-809:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:15:02,269 [Thread-810:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:16:02,494 [Thread-811:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:17:02,961 [Thread-812:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:18:02,041 [Thread-813:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:19:02,455 [Thread-814:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:20:02,770 [Thread-815:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:21:02,872 [Thread-816:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:22:02,914 [Thread-817:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:23:03,012 [Thread-818:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:24:02,106 [Thread-819:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:25:03,430 [Thread-820:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:26:02,644 [Thread-821:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:27:02,787 [Thread-822:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:28:02,887 [Thread-823:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:29:02,894 [Thread-824:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:30:03,076 [Thread-825:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:31:02,402 [Thread-826:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:32:02,446 [Thread-827:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:33:02,439 [Thread-828:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:34:02,450 [Thread-829:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:35:02,447 [Thread-830:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:36:02,597 [Thread-831:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:37:02,595 [Thread-832:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:38:02,772 [Thread-833:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:39:02,812 [Thread-834:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:40:03,090 [Thread-835:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:41:02,114 [Thread-836:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 200
+2018-06-25 21:42:02,071 [Thread-837:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 0
+2018-06-25 21:43:01,912 [Thread-838:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 0
+2018-06-25 21:44:03,027 [Thread-839:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 0
+2018-06-25 21:45:02,292 [Thread-840:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 57
+2018-06-25 21:46:02,695 [Thread-841:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 57
+2018-06-25 21:47:02,615 [Thread-842:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 57
+2018-06-25 21:48:02,520 [Thread-843:140111489664768] [basehttp:log_message] [INFO]- "GET /getDBList HTTP/1.1" 200 57
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2018 - 07:46:16
+Django version 1.11.4, using settings 'dbInsight.settings'
+Starting development server at http://sqlaudit:8000/
+Quit the server with CONTROL-C.

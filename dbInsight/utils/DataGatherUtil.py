@@ -94,9 +94,9 @@ def dataExtract(sourceDBID, sourceDBNAME, catalogDB, gatherType, jobType):
             cursor_src = srcConnect.cursor()
 
             log.debug("开始执行源端数据库采集语句！")
+            extract_sql = sql_src.replace('${DB_UID}', str(sourceDBID)).replace('${SNAP_ID}', str(sourceDBID))
             print('extract_sql -> ', extract_sql)
 
-            extract_sql = sql_src.replace('${DB_UID}', str(sourceDBID)).replace('${SNAP_ID}', str(sourceDBID))
             cursor_src.execute(extract_sql)
 
             # 获取源库语句执行结果
