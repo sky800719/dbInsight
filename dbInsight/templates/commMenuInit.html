@@ -11,13 +11,15 @@
     $(document).ready(function(){
 
         {% if MENU_ACTION %}
+            //菜单存在多个配置表格时，循环处理表格信息
             {% for tabRow in MENU_ACTION %}
-            $.get("{% url tabRow.URL_FUNC %}", 
-                {'urlQryType': '{{ tabRow.MENU_URL }}', 'urlQryAction': '{{ tabRow.URL_ACTION }}'}, 
+            $.get("{% url tabRow.URL_EXTEND_FUNC %}", 
+                {'MENU_URL': '{{ tabRow.MENU_URL }}', 'URL_ACTION': '{{ tabRow.URL_EXTEND_ACTION }}'}, 
                 function(commDBQuery){
                     $('#' + '{{ tabRow.URL_DIV }}').html(commDBQuery);
                     $('#' + '{{ tabRow.URL_DIV }}').show();
-            })
+                }
+            )
             {% endfor %}
         {% endif %}
 

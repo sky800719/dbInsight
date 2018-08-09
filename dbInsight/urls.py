@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
-from . import dashboardViews, dbCronViews
+from . import dashboardViews
 
 app_name = 'dbInsight'
 
@@ -30,13 +30,9 @@ urlpatterns = [
     url(r'^dbSkyEye/', include('dbSkyEye.dbSkyEyeUrls')),
     url(r'^dbSQLAudit/', include('dbSQLAudit.dbSQLAuditUrls')),
     url(r'^$', dashboardViews.index, name='index'),
-    url(r'^get/', dashboardViews.get, name='get'), # celery test URL
     url(r'^login$', dashboardViews.login, name='login'),
     url(r'^sysInit$', dashboardViews.sysInit, name='sysInit'),
     url(r'^mainPageInit$', dashboardViews.mainPageInit, name='mainPageInit'),
     url(r'^commMenuInitQry$', dashboardViews.commMenuInitQry, name='commMenuInitQry'),
     url(r'^commURLSQLQuery$', dashboardViews.commURLSQLQuery, name='commURLSQLQuery'),
-    url(r'^gatherDBInfo$', dbCronViews.gatherDBInfo, name='gatherDBInfo'),
-    url(r'^cleanGatherData$', dbCronViews.cleanGatherData, name='cleanGatherData'),
-    url(r'^getDBList$', dbCronViews.getDBList, name='getDBList'),
 ]

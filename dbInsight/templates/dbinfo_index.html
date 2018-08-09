@@ -1,0 +1,114 @@
+﻿{% load staticfiles %}
+
+
+<!-- Bootstrap CSS -->
+<!--
+<link rel="stylesheet" href="../static/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="../static/bootstrap/3.3.7/css/font-awesome.min.css">
+<link rel="stylesheet" href="../static/bootstrap/3.3.7/css/site.min.css">
+<link rel="stylesheet" href="../static/bootstrap/3.3.7/assets/docs.min.css">
+<link rel="stylesheet" href="{% static 'ducw/static/bootstrap/plugin/bootstrap-table/css/bootstrap-table.min.css' %}">
+-->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--
+<script src="../static/jquery/jquery-3.3.1.min.js"></script>
+<script src="../static/popper/popper.min.js"></script>
+<script src="{% static 'ducw/static/bootstrap/3.3.7/js/bootstrap.min.js' %}"></script>
+-->
+
+<!-- 
+<script src="{% static 'ducw/static/bootstrap/plugin/bootstrap-table/js/bootstrap-table.min.js' %}"></script>
+<script src="{% static 'ducw/static/bootstrap/plugin/bootstrap-table/js/bootstrap-table-zh-CN.min.js' %}"></script>
+<script src="{% static 'ducw/static/bootstrap/plugin/bootstrap-table/js/bootstrap-table-export.min.js' %}"></script>
+<script src="{% static 'ducw/static/bootstrap/plugin/bootstrap-table/js/tableExport.min.js' %}"></script>
+
+<script src="{% static 'ducw/static/dbreport/dbreport-table-data.js' %}"></script>
+<script src="{% static 'ducw/static/dbreport/dbreport-table.js' %}"></script>
+
+-->
+
+<div class="box">
+
+        <!-- 4. 巡检分类内容开始 -->
+        <div class="box-body">
+          <h1 id="overview" class="page-header">数据库基本信息</h1>
+
+          <!-- 数据库信息表格，固定格式 -->
+          <div data-example-id="bordered-table">
+            <table class="table table-bordered">
+              <tr>
+                <th class="info">数据库名称</th>
+                <td>ORDDB</td>
+                <th class="info">版本</th>
+                <td>11.2.0.4</td>
+                <th class="info">补丁版本</th>
+                <td>12.2.0.1.180116</td>
+                <th class="info">字符集</th>
+                <td>ZHS16GBK</td>
+              </tr>
+              <tr>
+                <th class="info">数据库创建时间</th>
+                <td>2016-02-07 15:30:00</td>
+                <th class="info">数据库启动时间</th>
+                <td>2016-02-07 15:30:00</td>
+                <th class="info">启动时长</th>
+                <td>10.3 天</td>
+              </tr>
+              <tr>
+                <th class="info">平台</th>
+                <td>Linux x86 64-bit</td>
+                <th class="info">CPU数量</th>
+                <td>4</td>
+                <th class="info">SGA</th>
+                <td>4GB</td>
+                <th class="info">最大进程数</th>
+                <td>1000</td>
+              </tr>
+              <tr>
+                <th class="info">存储方式</th>
+                <td>ASM</td>
+                <th class="info">表空间容量</th>
+                <td>100GB</td>
+                <th class="info">已使用容量</th>
+                <td>40GB</td>
+                <th class="info">剩余容量</th>
+                <td>60GB</td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+        <!-- 4. 巡检分类内容结束 -->
+
+        <!-- 4. 巡检分类内容开始 -->
+        <div class="box-body">
+
+          <!-------------------------- 巡检项目内容信息 -------------------------->
+          <!-- 1. 巡检内容标题 -->
+          <h3 id="storage-tablespace">表空间明细信息</h3>
+
+          <!-- 2. 巡检内容表格 -->
+          <table id="INSTANCE_TABID2" class="table table-bordered table-striped">
+          </table>
+
+          <!-- 3. 巡检内容备注 -->
+          <div class="bs-callout bs-callout-danger">
+            <h4>说明：</h4>
+            <p>数据库基本信息</p>
+          </div>
+          <!-------------------------- 巡检项目内容信息 -------------------------->
+          
+        </div>
+        <!-- 4. 巡检分类内容结束 -->
+
+</div>
+
+<!--
+  <script>
+      $(function() {
+        reportTableInit();
+      });
+  </script>
+-->

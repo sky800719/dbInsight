@@ -24,7 +24,9 @@ def getDBConnection(sourceDBID, sourceDBNAME):
     msgContent = ''
 
     log.debug('开始获取数据库连接信息配置！')
-    resultList = getSQLResult(SYSConfigSQL.DBConnectInfoSQL, {'DB_ID': sourceDBID, 'DB_NAME': sourceDBNAME})
+    resultList = getSQLResult(
+        SYSConfigSQL.DBConnectInfoSQL, {
+            'DB_ID': sourceDBID, 'DB_NAME': sourceDBNAME})
 
     if len(resultList) > 0:
         dbInfo = resultList[0]
@@ -157,14 +159,13 @@ def getSQLResultWithColName(SQLStr, bindList):
             resultList.append(rowDict)
 
     except BaseException:
-        log.error("查询数据库异常: %s", sys.exc_info())
         log.error("查询数据库异常: %s", sys.exc_info()[0])
         log.error("查询数据库异常: %s", sys.exc_info()[1])
         log.error("查询数据库异常: %s", sys.exc_info()[2])
     finally:
         cursor.close()
 
-    #log.debug("查询返回结果 resultList => %s", resultList)
+    # log.debug("查询返回结果 resultList => %s", resultList)
 
     return resultList
 
@@ -174,12 +175,12 @@ def qrySQLColParse(sqlCursor):
     # 获取查询语句查询列名称
     columnList = []
     columnDesc = sqlCursor.description
-    #log.debug("查询语句列信息 columnDesc => %s", columnDesc)
+    # log.debug("查询语句列信息 columnDesc => %s", columnDesc)
 
     for index, value in enumerate(columnDesc):
         columnList.append(value[0])
 
-    #log.debug("查询语句列名信息 columnList => %s", columnList)
+    # log.debug("查询语句列名信息 columnList => %s", columnList)
 
     return columnList
 
@@ -200,6 +201,7 @@ def getCfgSQLAndBind(SQLStr, bindList):
 
         #　当前系统最大支持每条查询语句有３个变量
         for row in result:
+            # row[0] 返回 DBMP_MENU_URL_SQL_MAP 表中 URL_EXTEND_SQL
             resultSQL = row[0]
             if row[1] is not None:
                 resultBindList[row[1]] = row[2]
@@ -222,7 +224,9 @@ def getCfgSQLAndBind(SQLStr, bindList):
 def getCfgSqlResult(MENU_URL):
 
     # 用于获取DBMP_URL_SQL_MAP表URL_SQL列配置查询语句数据
-    sqlInfo = getCfgSQLAndBind(SYSConfigSQL.URLQrySQLWithBind, {'MENU_URL': MENU_URL})
+    sqlInfo = getCfgSQLAndBind(
+        SYSConfigSQL.URLQrySQLWithBind, {
+            'MENU_URL': MENU_URL})
 
     SQLStr = sqlInfo['resultSQL']
     bindList = sqlInfo['resultBindList']
@@ -238,49 +242,62 @@ def getCfgSqlResultWithColName(MENU_URL, URL_ACTION):
 
     if URL_ACTION == '':
         sqlInfo = getCfgSQLAndBind(SYSConfigSQL.URLQrySQLWithBind, {'MENU_URL': MENU_URL})
-    else :
+    else:
         sqlInfo = getCfgSQLAndBind(SYSConfigSQL.URLMapQrySQLWithBind, {'MENU_URL': MENU_URL, 'URL_ACTION': URL_ACTION})
 
-    SQLStr = sqlInfo['resultSQL']
-    bindList = sqlInfo['resultBindList']
-    resultList = getSQLResultWithColName(SQLStr, bindList)
+    SQLStr=sqlInfo['resultSQL']
+    bindList=sqlInfo['resultBindList']
+    resultList=getSQLResultWithColName(SQLStr, bindList)
 
     return resultList
+
 
 def getMenuCfg(MENU_URL, URL_ACTION):
 
     # 用于获取DBMP_URL_SQL_MAP表URL_SQL列配置扩展信息
     if URL_ACTION == '':
-        resultList = getSQLResult(SYSConfigSQL.MenuURLMapSQL, {'MENU_URL': MENU_URL})
+        resultList=getSQLResult(
+            SYSConfigSQL.MenuURLMapSQL, {
+                'MENU_URL': MENU_URL})
     else:
-        resultList = getSQLResult(SYSConfigSQL.URLMapQrySQLWithBind, {'MENU_URL': MENU_URL, 'URL_ACTION': URL_ACTION})
+        resultList=getSQLResult(
+            SYSConfigSQL.URLMapQrySQLWithBind, {
+                'MENU_URL': MENU_URL, 'URL_ACTION': URL_ACTION})
 
     return resultList
+
 
 def getURLExtendInfo(MENU_URL, URL_ACTION):
 
     # 用于获取DBMP_MENU_URL_EXTEND表中扩展信息
-    resultList = getSQLResult(SYSConfigSQL.URLDisplaySQL, {'MENU_URL': MENU_URL, 'URL_ACTION': URL_ACTION})
+    resultList=getSQLResult(
+        SYSConfigSQL.URLDisplaySQL, {
+            'MENU_URL': MENU_URL, 'URL_ACTION': URL_ACTION})
 
     return resultList[0]
+
 
 def getAPPCfgResult():
 
     # 用于获取DBMP_URL_SQL_MAP表URL_SQL列配置查询语句数据
-    resultList = getSQLResult(SYSConfigSQL.APPQrySQL, {})
+    resultList=getSQLResult(SYSConfigSQL.APPQrySQL, {})
 
     return resultList
+
 
 def getDBCfgResult():
 
     # 用于获取DBMP_URL_SQL_MAP表URL_SQL列配置查询语句数据
-    resultList = getSQLResult(SYSConfigSQL.DBInfoSQL, {})
+    resultList=getSQLResult(SYSConfigSQL.DBInfoSQL, {})
 
     return resultList
+
 
 def checkUserPass(username, password):
 
     # 校验用户名口令是否一致
-    resultList = getSQLResult(SYSConfigSQL.CheckUserAuth, {'USER_NAME':username, 'USER_PASS':password})
+    resultList=getSQLResult(
+        SYSConfigSQL.CheckUserAuth, {
+            'USER_NAME': username, 'USER_PASS': password})
 
     return resultList

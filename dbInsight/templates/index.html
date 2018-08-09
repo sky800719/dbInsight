@@ -48,8 +48,8 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">选择数据库<span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-            {% for tabRow in dbList %}
-                <li><a href="#">{{ tabRow.DB_NAME }}</a></li>
+            {% for dbRow in dbList %}
+                <li><a href="#">{{ dbRow.DB_NAME }}</a></li>
             {% endfor %}
             </ul>
           </li>
@@ -114,9 +114,11 @@
           </li>
           
           <!-- 右侧系统工具按钮区域 -->
+          <!--
           <li>
             <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
           </li>
+          -->
         </ul>
       </div>
       
@@ -129,68 +131,56 @@
     <!-- 侧边栏信息: style can be found in sidebar.less -->
     <section class="sidebar">
 
-      <!-- 侧边栏信息面板 -->
-      <div class="user-panel">
-        <div class="pull-left image">
-          <img src="{% static 'dashboard/dist/img/user2-160x160.jpg' %}" class="img-circle" alt="User Image">
-        </div>
-        <div class="pull-left info">
-          <p></p>
-          <!-- Status -->
-          <a href="#"><i class="fa fa-circle text-success"></i> ZGDBA </a>
-        </div>
-      </div>     
-
       <!-- 菜单区域: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header"></li>
-        {% for tabRow in menuList %} 
+        {% for menuRow in menuList %} 
           {% if forloop.first %}
           <!-- 激活第一个菜单 -->
           <li class="active">
-            <a href="#" id="mainPageInit"> <i class="fa fa-dashboard"></i><span>{{tabRow.MENU_NAME}}</span> </a>
+            <a href="#" id="mainPageInit"> <i class="fa fa-dashboard"></i><span>{{menuRow.MENU_NAME}}</span> </a>
           </li>
           {% else %}
-            {% if tabRow.HAS_LEAF == 1 and tabRow.MENU_URL == '#' %}
-              {% if tabRow.MENU_ID == 2 %}
-              <!-- {{tabRow.MENU_NAME}} 菜单,非激活 -->
+            {% if menuRow.HAS_LEAF == 1 and menuRow.MENU_URL == '#' %}
+              {% if menuRow.MENU_ID == 2 %}
+              <!-- {{menuRow.MENU_NAME}} 菜单,非激活 -->
               <li class="treeview">
                 <a href="#"><i class="fa fa-table"></i>
-                  <span>{{tabRow.MENU_NAME}}</span>
+                  <span>{{menuRow.MENU_NAME}}</span>
                   <span class="pull-right-container">
                     <i class="fa fa-angle-left pull-right"></i>
                   </span>
                 </a>
               {% else %}
               </li>
-              <!-- {{tabRow.MENU_NAME}} 菜单,非激活 -->
+              <!-- {{menuRow.MENU_NAME}} 菜单,非激活 -->
               <li class="treeview">
                 <a href="#"><i class="fa fa-table"></i>
-                  <span>{{tabRow.MENU_NAME}}</span>
+                  <span>{{menuRow.MENU_NAME}}</span>
                   <span class="pull-right-container">
                     <i class="fa fa-angle-left pull-right"></i>
                   </span>
                 </a>
               {% endif %}
-            {% elif tabRow.HAS_LEAF == 0 and tabRow.IS_LEAF == 0 %}
+            {% elif menuRow.HAS_LEAF == 0 and menuRow.IS_LEAF == 0 %}
             </li>
             <li>
-             <a href="#" id="{{tabRow.MENU_URL}}" onclick="sysConfig();">
-                <i class="fa fa-calendar"></i> <span>{{tabRow.MENU_NAME}}</span>
+             <a href="#" id="{{menuRow.MENU_URL}}" onclick="sysConfig();">
+                <i class="fa fa-calendar"></i> <span>{{menuRow.MENU_NAME}}</span>
              </a>
             </li>
             {% else %}
-                {% if tabRow.LEAF_ORDER == 1 %}
+                {% if menuRow.LEAF_ORDER == 1 %}
                 <ul class="treeview-menu">
-                    <li><a href="#" id="{{tabRow.MENU_URL}}" onclick="{{ tabRow.URL_EVENT}}('{{tabRow.MENU_URL}}');">
-                    <i class="fa fa-circle-o"></i>{{tabRow.MENU_NAME}}</a></li>
-                {% elif tabRow.LEAF_ORDER == 99 %}
-                    <li><a href="#" id="{{tabRow.MENU_URL}}" onclick="{{ tabRow.URL_EVENT}}('{{tabRow.MENU_URL}}');">
-                    <i class="fa fa-circle-o"></i>{{tabRow.MENU_NAME}}</a></li>
+                    <li><a href="#" id="{{menuRow.MENU_URL}}" onclick="{{ menuRow.MENU_URL_FUNC }}('{{menuRow.MENU_URL}}');">
+                    <i class="fa fa-circle-o"></i>{{menuRow.MENU_NAME}}</a></li>
+                {% elif menuRow.LEAF_ORDER == 99 %}
+                    <li><a href="#" id="{{menuRow.MENU_URL}}" onclick="{{ menuRow.MENU_URL_FUNC }}('{{menuRow.MENU_URL}}');">
+                    <i class="fa fa-circle-o"></i>{{menuRow.MENU_NAME}}</a></li>
                 </ul>
                 {% else %}
-                    <li><a href="#" id="{{tabRow.MENU_URL}}" onclick="{{ tabRow.URL_EVENT}}('{{tabRow.MENU_URL}}');">
-                    <i class="fa fa-circle-o"></i>{{tabRow.MENU_NAME}}</a></li>
+                    <li><a href="#" id="{{menuRow.MENU_URL}}" onclick="{{ menuRow.MENU_URL_FUNC }}('{{menuRow.MENU_URL}}');">
+                    <i class="fa fa-circle-o"></i>{{menuRow.MENU_NAME}}</a></li>
                 {% endif %}
             {% endif %}
           {% endif %} 
@@ -230,19 +220,20 @@
     <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
 
-  <!-- 右侧系统工具按钮区域 -->
+  <!-- 右侧系统工具按钮区域
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Tab panes -->
     <div class="tab-content">
       <!-- Home tab content -->
       <div class="tab-pane active" id="control-sidebar-home-tab">
-        {% for tabRow in appList %}
-            <h3 class="control-sidebar-heading"><a href="javascript:;">{{ tabRow.APP_NAME }}</a></h3>
+        {% for appRow in appList %}
+            <h3 class="control-sidebar-heading"><a href="javascript:;">{{ appRow.APP_NAME }}</a></h3>
         {% endfor %}
       </div>
       <!-- /.tab-pane -->
     </div>
   </aside>
+  -->
   <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
@@ -275,7 +266,7 @@
     $(document).ready(function(){
 
         //页面初始化加载
-        $.get("{% url 'mainPageInit' %}", {'urlQryType':'instanceQry'}, function(initForm){
+        $.get("{% url 'mainPageInit' %}", {'MENU_URL':'instanceQry'}, function(initForm){
             $('#mainPageDIV').html(initForm);
             $('#mainPageDIV').show();
         })
@@ -283,12 +274,12 @@
     });
 
     // 页面通用查询，用于对查询菜单信息进行跳转
-    function commMenuInitQry(urlQryType)
+    function commMenuInitQry(MENU_URL)
     {
         //清空mainSection中的所有DIV内容
         $('#mainSection div').empty();
 
-        $.get("{% url 'commMenuInitQry' %}",{'urlQryType': urlQryType}, function(commMenuInitQry){
+        $.get("{% url 'commMenuInitQry' %}",{'MENU_URL': MENU_URL}, function(commMenuInitQry){
             $('#commMenuInitQryDIV').html(commMenuInitQry);
             $('#commMenuInitQryDIV').show();
         })

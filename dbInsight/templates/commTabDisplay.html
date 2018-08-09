@@ -31,13 +31,17 @@
 </div>
 
 <script>
+
+//jQuery.DataTable说明：https://www.cnblogs.com/weimingxin/p/8242702.html
     $(document).ready(function(){
 
         $('#{{ URL_TAB }}').DataTable({
             "language": {
                     "url": "{% static 'dashboard/components/datatables.net/js/Chinese.json' %}"
             },
-            "pagingType": "full_numbers",
+            aLengthMenu: [2, 4, 8, 10], //更改显示记录数选项
+            iDisplayLength: 2, //默认显示的记录数
+            sPaginationType: "full_numbers", //详细分页组，可以支持直接跳转到某页
         });
 
     });
