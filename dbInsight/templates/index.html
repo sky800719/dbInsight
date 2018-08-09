@@ -45,14 +45,6 @@
       <!-- 顶部导航左侧菜单 -->
       <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">选择数据库<span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-            {% for dbRow in dbList %}
-                <li><a href="#">{{ dbRow.DB_NAME }}</a></li>
-            {% endfor %}
-            </ul>
-          </li>
         </ul>
       </div>
             
@@ -196,6 +188,28 @@
   <div class="content-wrapper">
     <!-- 正文页头信息，该区域信息保留用于后续扩展 -->
     <section class="content-header">
+        <div class="box box-info">
+            <div class="box-header with-border">
+                <h3 class="box-title">参数选择</h3>
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="box-body">
+                <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-sm-1 control-label">数据库</label>
+                    <div class="col-sm-3">
+                    <select class="form-control select2">
+                        {% for dbRow in dbList %}
+                            <option>{{ dbRow.DB_NAME }}</option>
+                        {% endfor %}
+                    </select>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
     </section>
 
     <!-- Main content -->
@@ -217,23 +231,23 @@
       公司信息
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2018 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
 
-  <!-- 右侧系统工具按钮区域
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Tab panes -->
     <div class="tab-content">
       <!-- Home tab content -->
       <div class="tab-pane active" id="control-sidebar-home-tab">
+      <!--
         {% for appRow in appList %}
             <h3 class="control-sidebar-heading"><a href="javascript:;">{{ appRow.APP_NAME }}</a></h3>
         {% endfor %}
       </div>
+      -->
       <!-- /.tab-pane -->
     </div>
   </aside>
-  -->
   <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
