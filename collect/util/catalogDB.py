@@ -1,0 +1,8 @@
+# -*- coding:utf-8 -*-
+
+# CATALOG数据库配置
+CATALOG_DB_IP = '192.168.56.180'
+CATALOG_DB_PORT = '1521'
+CATALOG_DB_SERVICE = 'ORA11G_PRIM'
+CATALOG_DB_USER = 'dbinsight'
+CATALOG_DB_PASS = 'oracle'
